@@ -3,7 +3,7 @@ title:  "Willkommen beim CoderDojo Schöneweide"
 date:   2019-10-27T19:59:19+0100
 categories: [allgemein]
 tags: [willkommen]
-author: Luis
+authors: [Luis]
 ---
 Herzlich Willkommen beim CoderDojo Schöneweide! Hier in unserem Blog könnt ihr unsere aktuellen Projekte mitverfolgen und euch über unsere Veranstaltungen auf dem neuesten Stand halten.
 

@@ -1,21 +1,20 @@
-<!-- Übersicht über Blogposts -->
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
-
+{{define "main"}}
 <!-- Content -->
 <!-- Loop through all posts -->
-<section id="all-posts">
-    <h2>Blog</h2>
-    <ul class="post-list">
-    {{ range .Pages }}
-      <li>
-        <a href="{{.Permalink}}">
-            <h2>{{ .Date.Format "02.01.2006" }} | {{ .Title }}</h2>
-            <p> {{ .Summary }}</p>
-            <p class="ellipsis"> ... </p>
-        </a>
-      </li>
-    {{ end }}
-</ul>
-
-{{ partial "footer.html" . }}
+  <main>
+    <section id="all-posts">
+        <h2>Blog</h2>
+        <ul class="post-list">
+        {{ range .Pages }}
+          <li>
+            <a href="{{.Permalink}}">
+                <h2>{{ .Date.Format "02.01.2006" }} | {{ .Title }}</h2>
+                <p> {{ .Summary }}</p>
+                <p class="ellipsis"> ... </p>
+            </a>
+          </li>
+        {{ end }}
+        </ul>
+    </section>
+  </main>
+{{end}}

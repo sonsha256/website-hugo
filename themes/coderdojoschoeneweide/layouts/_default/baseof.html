@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
+<html lang={{.Site.LanguageCode}}>
+    {{ block "head.html" . }}
+      <head>
+          <title> {{ block "title" .}}{{ .Site.Title }}{{ end }} </title>
+
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+      </head>
+    {{end}}
     <body>
-        {{- partial "header.html" . -}}
+        {{ block "header.html" . }}
+          <header class="site-header" role="banner">
+              <div class="wrapper">
+                  <a class="site-title" href="{{ .Site.BaseURL }}">
+                    <h1 class="hidden-title" rel="author">{{ .Site.Title }}</h1>
+                    <!--<img class="site-logo" src="{{ .Site.BaseURL }}/assets/img/logo_v2.jpg" alt="logo">-->
+                    <div class="site-subtitle">Schöneweide</div>
+                  </a>
+              </div>
+          </header>
+        {{ end }}
+
         <div id="content">
-        {{- block "main" . }}{{- end }}
+        {{ block "main" . }}{{ end }}
         </div>
-        {{- partial "footer.html" . -}}
+
+        {{ block "footer.html" . }}
+          <footer>
+            <div class="wrapper">
+              <p>Mit <3 gemacht vom CoderDojo Schöneweide Team</p>
+              <p>Auf GitHub gehostet</p>
+            </div>
+          </footer>
+        {{end}}
     </body>
 </html>
