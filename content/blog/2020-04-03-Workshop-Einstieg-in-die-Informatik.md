@@ -1,9 +1,9 @@
 ---
 title:  "Einstieg in die Informatik für Grundschüler*innen - Auch ohne Computer kann man viel lernen!"
-date:   2019-04-03T13:51:00+0100
+date:   2020-04-03T13:51:00+0100
 categories: [berichte]
 tags: [workshop, einstieg, unplugged, spiel, grundschule, programmieren, scratch, motoren]
-authors: [Linda]
+authors: [Linda, Testautorin]
 ---
 Wie sage ich einem Roboter, wie er sich ein Brötchen schmiert, im Park Müll beiseite räumt oder einen Luftballon fängt?
 Das konnte am 5. März 2020 eine sechste Klasse der Grundschule an der Wuhlheide bei unserem Workshop zum Einstieg in die
