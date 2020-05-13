@@ -1,9 +1,10 @@
 {{define "main"}}
 <!-- Blogseite -->
 <section class="post">
+  <h2>This is impressum</h2>
   <h2>{{ .Params.Title }}</h2>
   {{with .Params.Date}}
-    <p class="date">{{ .Format "02.01.2006" }}</p>
+    <p class="date">{{ .Date.Format "02.01.2006" }}</p>
   {{end}}
 
   {{with .Params.authors}}

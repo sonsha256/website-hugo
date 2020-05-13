@@ -1,0 +1,20 @@
+{{define "main"}}
+<!-- Content -->
+<!-- Loop through all posts -->
+    <section>
+        <h2>Startseite</h2>
+        <ul>
+        {{ range .Pages }}
+          <li>
+            <a>
+                <h3>{{ .Title }}</h3>
+                <p> {{ .Content }}</p>
+            </a>
+          </li>
+        {{ end }}
+        {{ range $.Site.Data.team }}
+            {{ partial "team.html" . }}
+        {{ end }}
+        </ul>
+    </section>
+{{end}}
