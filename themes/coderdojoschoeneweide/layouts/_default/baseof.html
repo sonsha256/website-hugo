@@ -10,34 +10,29 @@
 
           {{ $scss := resources.Get "/scss/main.scss" }}
           {{ $style := $scss | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-          {{ printf "%#v" $style.RelPermalink }}
           <link rel="stylesheet" type="text/css" href="{{$style.RelPermalink}}">
 
       </head>
     {{end}}
     <body>
         {{ block "header.html" . }}
-          <header class="site-header" role="banner">
-              <div class="wrapper">
+          <header class="site-header wrapper" role="banner">
                   <a class="site-title" href="{{ .Site.BaseURL }}">
                     <h1 class="hidden-title" rel="author">{{.Site.Title}}</h1>
                     <img class="site-logo" src="{{ .Site.BaseURL }}images/logo_v2.jpg" alt="logo">
                     <div class="site-subtitle">Schöneweide</div>
                   </a>
-              </div>
           </header>
         {{ end }}
 
-        <div id="content">
+        <main id="content" class="wrapper">
         {{ block "main" . }}{{ end }}
-        </div>
+      </main>
 
         {{ block "footer.html" . }}
-          <footer>
-            <div class="wrapper">
+          <footer class="wrapper">
               <p>Mit <3 gemacht vom CoderDojo Schöneweide Team</p>
               <p>Auf GitHub gehostet</p>
-            </div>
           </footer>
         {{end}}
     </body>

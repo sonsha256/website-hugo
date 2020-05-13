@@ -1,23 +1,24 @@
 {{define "main"}}
 <!-- Blogseite -->
-<section>
-  <h2>{{ .Site.Title }}</h2>
-  <p>{{ .Date.Format "02.01.2006" }}</p>
+<section class="post">
+  <h2>{{ .Page.Title }}</h2>
+  <p class="date">{{ .Date.Format "02.01.2006" }}</p>
 
   {{with .Params.authors}}
   <ul class="authors">
     {{range .}}
-      <li>{{.}}</li>
+      <li>{{.}}</li><span class="list-separator">,</span>
     {{end}}
   </ul>
   {{end}}
+
 
   {{.Content}}
 
   {{with .Params.tags}}
   <ul class="tags">
     {{range .}}
-      <li>{{.}}</li>
+      <li>#{{.}}</li>
     {{end}}
   </ul>
   {{end}}
