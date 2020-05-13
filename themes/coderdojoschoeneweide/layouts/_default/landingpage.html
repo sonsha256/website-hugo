@@ -9,11 +9,13 @@
             <a>
                 <h3>{{ .Title }}</h3>
                 <p> {{ .Content }}</p>
+                {{ if eq .Title "Team" }}
+                     {{ range $.Site.Data.team }}
+                        {{ partial "team.html" . }}
+                    {{ end }}
+                {{ end }}
             </a>
           </li>
-        {{ end }}
-        {{ range $.Site.Data.team }}
-            {{ partial "team.html" . }}
         {{ end }}
         </ul>
     </section>
