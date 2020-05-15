@@ -1,9 +1,8 @@
 ---
-title:  "Test Impressum"	
-admin: "Linda Fernsel"
-email: "TQVLICNMZV0MTFOUIQTCKWU"
-address: "kM4IV01ZCHtBxDHtsvtBH9MZTQV"
-phone: "stxusuAuwwsz"
 layout: "impressum"
+title:  "Impressum"
+admin: "Linda Fernsel"
+address: "kM4IV01ZCHtBxDHtsvtBH9MZTQV"
+email: "TQVLICNMZV0MTFOUIQTCKWU"
+phone: "stxusuAuwwsz"
 ---
-Dies ist ein Test-Impressum.
