@@ -18,7 +18,7 @@
 
 - name: Luis
   interests: Game Development, Webentwicklung, Lesen
-  background: Studiert Medieninformatik im Bachelor 
+  background: Studiert Medieninformatik im Bachelor
   tasks: Webseite
   imagePath: luis.jpg
 
@@ -27,6 +27,12 @@
   background: Studiert Medieninformatik im Bachelor
   tasks: Logo Design, Social Media, Blog Posts
   imagePath: magdalena.jpg
+
+- name: Mirijam
+  interests: Schnuppern in verschiedenen Bereichen, z.B Web-Entwicklung und Softwareentwicklung
+  background: Medieninformatik im 1. Bachelor Semester
+  tasks:
+  imagePath:
 
 - name: Patrick
   interests: Ethical Hacking, Software Development, Skateboard, Fußball
@@ -44,10 +50,4 @@
   interests: Android Development, Lesen
   background: Vier Semester Business Analyse in Minsk, studiert jetzt Medieninformatik im Bachelor
   tasks: Social Media
-  imagePath:
-
-- name: Mirijam
-  interests: Schnuppern in verschiedenen Bereichen, z.B Web-Entwicklung und Softwareentwicklung
-  background: Medieninformatik im 1. Bachelor Semester
-  tasks:
   imagePath:

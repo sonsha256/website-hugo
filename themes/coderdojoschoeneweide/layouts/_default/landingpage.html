@@ -3,20 +3,20 @@
 <!-- Loop through all posts -->
     <section>
         <h2>Startseite</h2>
-        <ul>
         {{ range .Pages }}
-          <li>
+          <section id="{{lower .Title}}">
             <a>
                 <h3>{{ .Title }}</h3>
                 <p> {{ .Content }}</p>
                 {{ if eq .Title "Team" }}
-                     {{ range $.Site.Data.team }}
-                        {{ partial "team.html" . }}
-                    {{ end }}
+                    <ul id="teamMemberList">
+                      {{ range $.Site.Data.team }}
+                          {{ partial "team.html" . }}
+                      {{ end }}
+                    </ul>
                 {{ end }}
             </a>
-          </li>
+          </section>
         {{ end }}
-        </ul>
     </section>
 {{end}}

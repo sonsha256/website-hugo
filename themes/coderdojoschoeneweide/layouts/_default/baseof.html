@@ -12,6 +12,7 @@
           {{ $style := $scss | resources.ToCSS | resources.Minify | resources.Fingerprint }}
           <link rel="stylesheet" type="text/css" href="{{$style.RelPermalink}}">
 
+          <script src={{resources.Get "/js/obfuscate.js"}}></script>
       </head>
     {{end}}
     <body>
@@ -25,9 +26,9 @@
           </header>
         {{ end }}
 
-        <main id="content" class="wrapper">
+        <main id="content" class="wrapper" aria-label="Content">
         {{ block "main" . }}{{ end }}
-      </main>
+       </main>
 
         {{ block "footer.html" . }}
           <footer class="wrapper">
