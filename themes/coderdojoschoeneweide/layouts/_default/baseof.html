@@ -26,6 +26,8 @@
           </header>
         {{ end }}
 
+        {{ block "nav" . }}{{ end }}
+
         <main id="content" class="wrapper columns" aria-label="Content">
         {{ block "main" . }}{{ end }}
        </main>
