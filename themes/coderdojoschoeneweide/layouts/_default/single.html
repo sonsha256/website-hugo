@@ -1,6 +1,6 @@
 {{define "main"}}
 <!-- Blogseite -->
-<section class="post">
+<section id="post">
   <h2>{{ .Params.Title }}</h2>
   {{with .Params.Date}}
     <p class="date">{{ .Format "02.01.2006" }}</p>
