@@ -1,4 +1,0 @@
----
-title: "Newsfeed"
-position: "aside"
----

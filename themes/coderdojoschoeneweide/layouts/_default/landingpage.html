@@ -8,16 +8,28 @@
           {{ $Position := .Param "position" }}
 
             {{ if eq $Position "aside" }}
-            <aside>
-                {{ if eq $Title "Kontakt" }}
-                  <h3>{{ $Title }}</h3>
+                <aside>
+                    <h2>Kontakt</h2>
                     <ul class="social">
                       {{ range $.Site.Data.contact }}
                           {{ partial "contact.html" . }}
                       {{ end }}
                     </ul>
-                {{ end }}
-            </aside>
+                    <h2>Newsfeed</h2>
+                    <ul class="post-list">
+                      {{ range $.Site.RegularPages }}
+                        {{ if isset .Params "tags"  }}
+                            <li>
+                                <a href="{{.Permalink}}">
+                                    <h3> {{ .Title }} </h3>
+                                    <p> {{ .Date.Format "02.01.2006" }} </p>
+                                </a>
+                            </li>
+                        {{ end }}
+                      {{ end }}
+                    </ul>
+                    <a class="button" href="{{ .Site.BaseURL }}/blog">Alle Posts</a>
+                </aside>
             {{ else }}
                 <section id="{{lower .Title}}">
                   <a>

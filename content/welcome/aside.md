@@ -1,4 +1,4 @@
 ---
-title: "Kontakt"
+title: "Aside"
 position: "aside"
 ---
