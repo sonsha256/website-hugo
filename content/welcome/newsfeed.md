@@ -1,3 +1,4 @@
 ---
 title: "Newsfeed"
+position: "aside"
 ---

@@ -1,22 +1,37 @@
 {{define "main"}}
 <!-- Content -->
 <!-- Loop through all posts -->
-    <section>
-        <h2>Startseite</h2>
         {{ range .Pages }}
-          <section id="{{lower .Title}}">
-            <a>
-                <h3>{{ .Title }}</h3>
-                <p> {{ .Content }}</p>
-                {{ if eq .Title "Team" }}
-                    <ul id="teamMemberList">
-                      {{ range $.Site.Data.team }}
-                          {{ partial "team.html" . }}
+          {{ $Title := .Title }}
+          {{ $Content := .Content }}
+          {{ $Position := .Param "position" }}
+
+            {{ if eq $Position "aside" }}
+            <aside>
+                {{ if eq $Title "Kontakt" }}
+                  <h3>{{ $Title }}</h3>
+                    <ul class="social">
+                      {{ range $.Site.Data.contact }}
+                          {{ partial "contact.html" . }}
                       {{ end }}
                     </ul>
                 {{ end }}
-            </a>
-          </section>
+            </aside>
+            {{ else }}
+                <section id="{{lower .Title}}">
+                  <a>
+                      <h3>{{ $Title }}</h3>
+                      <p> {{ $Content }}</p>
+
+                      {{ if eq $Title "Team" }}
+                          <ul id="teamMemberList">
+                            {{ range $.Site.Data.team }}
+                                {{ partial "team.html" . }}
+                            {{ end }}
+                          </ul>
+                      {{ end }}
+                  </a>
+                </section>
+            {{ end }}
         {{ end }}
-    </section>
 {{end}}

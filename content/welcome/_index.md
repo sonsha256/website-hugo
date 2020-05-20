@@ -1,3 +1,4 @@
 ---
 layout: landingpage
+position: normal
 ---
