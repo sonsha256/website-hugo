@@ -18,7 +18,7 @@
 
 - name: Luis
   interests: Game Development, Webentwicklung, Lesen
-  background: Studiert Medieninformatik im Bachelor 
+  background: Studiert Medieninformatik im Bachelor
   tasks: Webseite
   imagePath: luis.jpg
 
@@ -48,7 +48,7 @@
 
 - name: Mirijam
   interests: Schnuppern in verschiedenen Bereichen, z.B Web-Entwicklung und Softwareentwicklung
-  background: Medieninformatik im 1. Bachelor Semester
+  background: Studiert Medieninformatik im Bachelor
   tasks:
   imagePath: mirijam.jpg
 

@@ -1,23 +1,18 @@
 {{define "main"}}
   <aside>
     {{ range .Pages }}
-
         {{ $Position := .Param "position" }}
-
         {{ if eq $Position "aside" }}
           {{ $Title := .Title }}
           {{ $Id := lower $Title}}
           {{ $PartialLoc := printf "%s.html" $Id }}
           {{ partial $PartialLoc . }}
         {{ end }}
-
     {{ end }}
   </aside>
   {{ range .Pages }}
     {{ $Position := .Param "position" }}
-
     {{ if ne $Position "aside" }}
-
       {{ $Title := .Title }}
       {{ $Content := .Content }}
       <section id="{{lower .Title}}">
@@ -35,4 +30,4 @@
       </section>
     {{ end }}
   {{ end }}
-{{end}}
+{{ end }}

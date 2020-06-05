@@ -1,30 +1,26 @@
 {{define "main"}}
-<!-- Blogseite -->
-<section id="post">
-  <h2>{{ .Params.Title }}</h2>
-  {{with .Params.Date}}
-    <p class="date">{{ .Format "02.01.2006" }}</p>
-  {{end}}
-
-  {{with .Params.authors}}
-  <ul class="authors">
-    {{range .}}
-      <li>{{.}}</li><span class="list-separator">,</span>
+  <section id="post">
+    <h2>{{ .Params.Title }}</h2>
+    {{with .Params.Date}}
+      <p class="date">{{ .Format "02.01.2006" }}</p>
     {{end}}
-  </ul>
-  {{end}}
 
-
-  {{.Content}}
-
-  {{with .Params.tags}}
-  <ul class="tags">
-    {{range .}}
-      <li>#{{.}}</li>
+    {{with .Params.authors}}
+    <ul class="authors">
+      {{range .}}
+        <li>{{.}}</li><span class="list-separator">,</span>
+      {{end}}
+    </ul>
     {{end}}
-  </ul>
-  {{end}}
 
-</section>
+    {{.Content}}
 
+    {{with .Params.tags}}
+    <ul class="tags">
+      {{range .}}
+        <li>#{{.}}</li>
+      {{end}}
+    </ul>
+    {{end}}
+  </section>
 {{end}}
