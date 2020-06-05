@@ -1,0 +1,27 @@
+- name: "mail"
+  id: "schoneweide.berlin@coderdojo.com"
+  href: "mailto:"
+
+- name: "facebook"
+  id: "coderdojo.schoneweide.5"
+  href: "https://www.facebook.com/"
+
+- name: "instagram"
+  id: "coderdojoschoneweide"
+  href: "https://instagram.com/"
+
+- name: "github"
+  id: "CoderDojo-Schoeneweide"
+  href: "https://github.com/"
+
+- name: "twitter"
+  id: ""
+  href: "https://www.twitter.com/"
+
+- name: "youtube"
+  id: ""
+  href: "https://youtube.com/"
+
+- name: "rss"
+  id: ""
+  href: ""

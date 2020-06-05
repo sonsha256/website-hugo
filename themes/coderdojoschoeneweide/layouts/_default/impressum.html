@@ -1,0 +1,14 @@
+{{define "main"}}
+  <section id="impressum">
+      <h2>Impressum</h2>
+      <p>
+        Angaben gemäß § 5 TMG. Zum Anzeigen der Kontaktdaten muss JavaScript aktiviert sein.
+      </p>
+      <p>
+        Ansprechpartnerin: {{ .Params.admin }} <br />
+        Anschrift: <span id="address"><button onclick="show('address', {{ .Params.address }})">Zeige Anschrift</button></span> <br />
+        Email: <span id="email"><button onclick="show('email', {{ .Params.email }})">Zeige Mailadresse</button></span> <br />
+        Telefon: <span id="phone"><button onclick="show('phone', {{ .Params.phone }})">Zeige Telefonnummer</button></span>
+      </p>
+  </section>
+{{end}}

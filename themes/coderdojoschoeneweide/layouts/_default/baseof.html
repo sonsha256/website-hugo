@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
+<html lang={{.Site.LanguageCode}}>
+    {{ block "head.html" . }}
+      <head>
+          <title> {{ block "title" .}}{{ .Site.Title }}{{ end }} </title>
+
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+
+          {{ $scss := resources.Get "/scss/main.scss" }}
+          {{ $style := $scss | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+          <link rel="stylesheet" type="text/css" href="{{$style.RelPermalink}}">
+
+          <script src="{{ .Site.BaseURL }}js/obfuscate.js"></script>
+      </head>
+    {{end}}
     <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
+        {{ block "header.html" . }}
+          <header class="site-header wrapper" role="banner">
+              <a class="site-title" href="{{ .Site.BaseURL }}">
+                <h1 class="hidden-title" rel="author">{{.Site.Title}}</h1>
+                <img class="site-logo" src="{{ .Site.BaseURL }}images/logo.jpg" alt="logo">
+                <div class="site-subtitle">Schöneweide</div>
+              </a>
+              <div class="wrapper">
+                  <nav>
+                    <input type="checkbox" id="nav-trigger">
+                    <label for="nav-trigger">Menü</label>
+                    <ul class="trigger">
+                      {{ block "navlinks" . }}
+                        <li><a class="button" href="{{ .Site.BaseURL }}#über uns">Über uns</a></li>
+                        <li><a class="button" href="{{ .Site.BaseURL }}#veranstaltungen">Veranstaltungen</a></li>
+                        <li><a class="button" href="{{ .Site.BaseURL }}#team">Team</a></li>
+                        <li><a class="button" href="{{ .Site.BaseURL }}/blog">Blog</a></li>
+                        <li><a class="button" href="{{ .Site.BaseURL }}/impressum">Impressum</a></li>
+                      {{ end }}
+                    </ul>
+                  </nav>
+              </div>
+          </header>
+        {{ end }}
+
+        <main id="content" class="wrapper columns" aria-label="Content">
+          {{ block "main" . }}{{ end }}
+        </main>
+
+        {{ block "footer.html" . }}
+          <footer class="wrapper">
+              <p>Mit <3 gemacht vom CoderDojo Schöneweide Team</p>
+              <p>Auf GitHub gehostet</p>
+          </footer>
+        {{end}}
     </body>
 </html>

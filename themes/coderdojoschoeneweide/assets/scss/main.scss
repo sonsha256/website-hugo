@@ -1,0 +1,394 @@
+/* Variables */
+
+$color-dark: #111111 !default;
+$color-light: #ffffff !default;
+$color-main: #f2a23a !default;
+
+$wrapper-width: 900px !default;
+$wrapper-margin: 2rem;
+$standard-padding: .5rem;
+
+/* General */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 100% "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $color-light;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.wrapper {
+  max-width: $wrapper-width;
+  margin: $wrapper-margin auto;
+}
+
+.background-main {
+  background-color: $color-main;
+}
+
+/* Header */
+
+header {
+  a {
+    display: block;
+    text-decoration: none;
+    color: $color-dark;
+
+    .hidden-title {
+      display: none;
+    }
+
+    .site-logo {
+      display: block;
+      width: 40rem;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .site-subtitle {
+      text-align: center;
+      font-size: 4rem;
+    }
+  }
+
+}
+
+.button {
+  font-weight: bold;
+  margin: 0 .1rem;
+  padding: .9rem;
+  background-color: $color-main;
+  color: $color-light;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+
+  &:hover {
+    cursor:pointer;
+    opacity: 0.8;
+  }
+}
+
+nav {
+
+  display: block;
+
+  input, label {
+    display: none;
+  }
+
+  label {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      background-color: $color-main;
+      color: $color-light;
+      padding: $standard-padding 0;
+    }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto; //Add more columns if needed
+
+    li {
+        margin: 0.1rem
+    }
+  }
+}
+
+main {
+  &.columns {
+    display: grid;
+    grid-template-areas:
+            "about aside"
+            "events aside"
+            "broad broad";
+    grid-template-columns: 2fr 1fr;
+  }
+
+  section {
+    padding: $standard-padding;
+  }
+
+  #about {
+    grid-area: about;
+  }
+
+  #events {
+    grid-area: events;
+  }
+
+  #team {
+    grid-area: broad;
+    background-color: $color-main;
+    margin-top: $wrapper-margin;
+
+    h2 {
+      text-align: center;
+      color: $color-light;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+
+      li {
+        display: inline-block;
+        position: relative;
+        width: 12rem;
+        height: 12rem;
+        margin: 0.4rem 0.3rem;
+
+        .front {
+          position: absolute;
+          bottom: 0;
+          top: 0;
+          animation: flipVisible 250ms;
+
+          img {
+            max-width: 100%;
+          }
+
+          h4 {
+            color: $color-light;
+            text-shadow: 0 0 0.3rem $color-dark;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+          }
+        }
+
+        .back {
+          background-color: $color-light;
+          margin: 0;
+          position: absolute;
+          bottom: 0;
+          top: 0;
+          width: 100%;
+          padding: 1rem;
+          transform: rotateY(-90deg);
+          animation: flipAway 250ms;
+        }
+
+        &:hover .front {
+          animation: flipAway 250ms forwards;
+        }
+
+        &:hover .back {
+          animation: flipVisible 250ms forwards;
+        }
+      }
+    }
+  }
+
+  aside {
+    grid-area: aside;
+    padding: $standard-padding 1.5rem;
+    border-left: 1px solid $color-main;
+
+    .social {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+      a {
+        padding: $standard-padding;
+
+        svg {
+          width: 1rem;
+          height: 1rem;
+        }
+      }
+    }
+  }
+
+  #all-posts {
+    grid-area: broad;
+
+    h2 {
+      text-align: center;
+    }
+  }
+
+  .post-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin: 1rem 0;
+        padding: 0;
+
+        &:not(:first-child) {
+          border-top: 1px solid $color-dark;
+        }
+
+        a {
+          color: $color-dark;
+          text-decoration: none;
+
+          &:hover {
+            color: $color-main;
+          }
+        }
+
+        .ellipsis {
+          text-align: center;
+        }
+      }
+  }
+
+  #post {
+    grid-area: broad;
+
+    .date, .authors {
+      display: inline-block;
+    }
+
+    .authors, .tags {
+      list-style: none;
+
+      li {
+        display: inline-block;
+      }
+
+      .list-separator:last-of-type {
+          display: none;
+      }
+    }
+
+    .tags {
+      padding: 0;
+
+      li {
+        border-radius: 0.5rem;
+        padding: .1rem .4rem;
+        border: 1px dotted $color-dark;
+
+        &:hover{
+          cursor: pointer;
+          border: 1px solid $color-main;
+          background-color: $color-main;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  p {
+    text-align: center;
+    opacity: 0.7;
+  }
+}
+
+@keyframes flipAway {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    transform: rotateY(90deg);
+  }
+
+  100% {
+    transform: rotateY(90deg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    a {
+      .site-subtitle {
+        font-size: 3rem;
+      }
+    }
+
+    nav {
+      label {
+        display: block;
+
+        &::after {
+          content: "▼";
+          font-size: 1rem;
+        }
+      }
+
+      ul {
+        max-height: 0;
+        overflow: hidden;
+        margin: 0;
+        grid-template-columns: initial;
+        transition: max-height 0.5s ease;
+        -moz-transition: max-height 0.5s ease;
+        -o-transition: max-height 0.5s ease;
+        -webkit-transition: max-height 0.5s ease;
+
+        li {
+          margin: 0;
+
+          .button {
+            margin: 0;
+          }
+        }
+      }
+
+      input:checked {
+        ~ ul {
+          max-height: 100%;
+        }
+
+        ~ label::after {
+          content: "▲";
+        }
+      }
+    }
+  }
+
+  main {
+    &.columns {
+      grid-template-areas: "about" "events" "aside" "broad";
+      grid-template-columns: initial;
+    }
+
+    aside {
+      border-left: none;
+    }
+
+    aside::before {
+      content: "";
+      display: block;
+      background-color: $color-main;
+      height: 1px;
+      width: 100%;
+    }
+  }
+}
+
+@keyframes flipVisible {
+  0% {
+    transform: rotateY(-90deg);
+  }
+
+  50% {
+    transform: rotateY(-90deg);
+  }
+
+  100% {
+    transform: rotateY(0deg);
+  }
+}
