@@ -1,0 +1,14 @@
+  <h2>Newsfeed</h2>
+  <ul class="post-list">
+    {{ range $.Site.RegularPages.ByDate.Reverse }}
+      {{ if isset .Params "tags"  }}
+          <li>
+              <a href="{{.Permalink}}">
+                  <h3> {{ .Title }} </h3>
+                  <p> {{ .Date.Format "02.01.2006" }} </p>
+              </a>
+          </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+  <a class="button" href="{{ .Site.BaseURL }}/blog">Alle Posts</a>

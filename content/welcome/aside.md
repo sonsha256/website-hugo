@@ -1,4 +1,0 @@
----
-title: "Aside"
-position: "aside"
----

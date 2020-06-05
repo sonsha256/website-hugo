@@ -1,49 +1,38 @@
 {{define "main"}}
-<!-- Content -->
-<!-- Loop through all posts -->
-        {{ range .Pages }}
+  <aside>
+    {{ range .Pages }}
+        
+        {{ $Position := .Param "position" }}
+
+        {{ if eq $Position "aside" }}
           {{ $Title := .Title }}
-          {{ $Content := .Content }}
-          {{ $Position := .Param "position" }}
-
-            {{ if eq $Position "aside" }}
-                <aside>
-                    <h2>Kontakt</h2>
-                    <ul class="social">
-                      {{ range $.Site.Data.contact }}
-                          {{ partial "contact.html" . }}
-                      {{ end }}
-                    </ul>
-                    <h2>Newsfeed</h2>
-                    <ul class="post-list">
-                      {{ range $.Site.RegularPages }}
-                        {{ if isset .Params "tags"  }}
-                            <li>
-                                <a href="{{.Permalink}}">
-                                    <h3> {{ .Title }} </h3>
-                                    <p> {{ .Date.Format "02.01.2006" }} </p>
-                                </a>
-                            </li>
-                        {{ end }}
-                      {{ end }}
-                    </ul>
-                    <a class="button" href="{{ .Site.BaseURL }}/blog">Alle Posts</a>
-                </aside>
-            {{ else }}
-                <section id="{{lower .Title}}">
-                  <a>
-                      <h3>{{ $Title }}</h3>
-                      <p> {{ $Content }}</p>
-
-                      {{ if eq $Title "Team" }}
-                          <ul id="teamMemberList">
-                            {{ range $.Site.Data.team }}
-                                {{ partial "team.html" . }}
-                            {{ end }}
-                          </ul>
-                      {{ end }}
-                  </a>
-                </section>
-            {{ end }}
+          {{ $Id := lower $Title}}
+          {{ $PartialLoc := printf "%s.html" $Id }}
+          {{ partial $PartialLoc . }}
         {{ end }}
+
+    {{ end }}
+  </aside>
+  {{ range .Pages }}
+    {{ $Position := .Param "position" }}
+
+    {{ if ne $Position "aside" }}
+
+      {{ $Title := .Title }}
+      {{ $Content := .Content }}
+      <section id="{{lower .Title}}">
+        <a>
+          <h3>{{ $Title }}</h3>
+          <p> {{ $Content }}</p>
+          {{ if eq $Title "Team" }}
+            <ul id="teamMemberList">
+              {{ range $.Site.Data.team }}
+                  {{ partial "team.html" . }}
+              {{ end }}
+            </ul>
+          {{ end }}
+        </a>
+      </section>
+    {{ end }}
+  {{ end }}
 {{end}}
