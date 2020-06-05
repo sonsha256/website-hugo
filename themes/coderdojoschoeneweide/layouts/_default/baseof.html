@@ -29,9 +29,9 @@
                             <label for="nav-trigger">Menü</label>
                             <ul class="trigger">
                                 {{ block "navlinks" . }}
-                                  <li><a class="button" href="{{ .Site.BaseURL }}/welcome#über uns">Über uns</a></li>
-                                  <li><a class="button" href="{{ .Site.BaseURL }}/welcome#veranstaltungen">Veranstaltungen</a></li>
-                                  <li><a class="button" href="{{ .Site.BaseURL }}/welcome#team">Team</a></li>
+                                  <li><a class="button" href="{{ .Site.BaseURL }}#über uns">Über uns</a></li>
+                                  <li><a class="button" href="{{ .Site.BaseURL }}#veranstaltungen">Veranstaltungen</a></li>
+                                  <li><a class="button" href="{{ .Site.BaseURL }}#team">Team</a></li>
                                   <li><a class="button" href="{{ .Site.BaseURL }}/blog">Blog</a></li>
                                   <li><a class="button" href="{{ .Site.BaseURL }}/impressum">Impressum</a></li>
                                 {{ end }}
@@ -41,7 +41,7 @@
 
           </header>
         {{ end }}
-        
+
         <main id="content" class="wrapper columns" aria-label="Content">
         {{ block "main" . }}{{ end }}
         </main>
