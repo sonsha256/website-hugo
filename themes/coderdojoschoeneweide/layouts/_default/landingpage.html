@@ -1,7 +1,7 @@
 {{define "main"}}
   <aside>
     {{ range .Pages }}
-        
+
         {{ $Position := .Param "position" }}
 
         {{ if eq $Position "aside" }}
@@ -22,7 +22,7 @@
       {{ $Content := .Content }}
       <section id="{{lower .Title}}">
         <a>
-          <h3>{{ $Title }}</h3>
+          <h2>{{ $Title }}</h2>
           <p> {{ $Content }}</p>
           {{ if eq $Title "Team" }}
             <ul id="teamMemberList">
