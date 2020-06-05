@@ -76,13 +76,22 @@ header {
   }
 }
 
-.site-nav {
+nav {
 
   display: block;
 
   input, label {
     display: none;
   }
+
+  label {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      background-color: $color-main;
+      color: $color-light;
+      padding: 0.5rem 0;
+    }
 
   ul {
     padding: 0;
@@ -243,7 +252,7 @@ main {
 
   #post {
     grid-area: broad;
-    
+
     .date, .authors {
       display: inline-block;
     }
@@ -278,8 +287,6 @@ main {
   }
 }
 
-
-
 footer {
   p {
     text-align: center;
@@ -298,6 +305,75 @@ footer {
 
   100% {
     transform: rotateY(90deg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    a {
+      .site-subtitle {
+        font-size: 3rem;
+      }
+    }
+
+    nav {
+      label {
+        display: block;
+
+        &::after {
+          content: "▼";
+          font-size: 1rem;
+        }
+      }
+
+      ul {
+        max-height: 0;
+        overflow: hidden;
+        margin: 0;
+        grid-template-columns: initial;
+        transition: max-height 0.5s ease;
+        -moz-transition: max-height 0.5s ease;
+        -o-transition: max-height 0.5s ease;
+        -webkit-transition: max-height 0.5s ease;
+
+        li {
+          margin: 0;
+
+          .button {
+            margin: 0;
+          }
+        }
+      }
+
+      input:checked {
+        ~ ul {
+          max-height: 100%;
+        }
+
+        ~ label::after {
+          content: "▲";
+        }
+      }
+    }
+  }
+
+  main {
+    &.columns {
+      grid-template-areas: "about" "events" "aside" "broad";
+      grid-template-columns: initial;
+    }
+
+    aside {
+      border-left: none;
+    }
+
+    aside::before {
+      content: "";
+      display: block;
+      background-color: $color-main;
+      height: 1px;
+      width: 100%;
+    }
   }
 }
 

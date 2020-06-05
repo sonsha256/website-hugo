@@ -1,6 +1,8 @@
 {{ define "nav" }}
   <div class="wrapper">
-      <nav class="site-nav">
+      <nav>
+          <input type="checkbox" id="nav-trigger">
+          <label for="nav-trigger">Menü</label>
           <ul class="trigger">
               <li><a class="button" href="{{ .Site.BaseURL }}/welcome#über uns">Über uns</a></li>
               <li><a class="button" href="{{ .Site.BaseURL }}/welcome#veranstaltungen">Veranstaltungen</a></li>
