@@ -21,6 +21,7 @@
   background: Studiert Medieninformatik im Bachelor
   tasks: Webseite
   imagePath: luis.jpg
+  story: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - name: Magdalena
   interests: Webentwicklung, Webdesign, Graphic Design
@@ -35,8 +36,8 @@
   imagePath:
 
 - name: Sebastian
-  interests: Von allem ein Bisschen und ein bisschen mehr Autos und Technik. Vor allem aber Spaß am Umgang damit.
-  background: Nfz Mechatroniker (also die ganz schweren Autos), studiert jetzt Fahrzeugtechnik im Bachelor und probiert gerne alles aus
+  interests: Von allem ein bisschen, ein bisschen mehr Autos und Technik, und Spaß am Umgang damit.
+  background: NFZ Mechatroniker (die ganz schweren Autos), studiert Fahrzeugtechnik im Bachelor
   tasks: Mädchen für Alles
   imagePath: sebastian.jpg
 

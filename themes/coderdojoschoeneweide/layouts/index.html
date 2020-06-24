@@ -10,24 +10,21 @@
         {{ end }}
     {{ end }}
   </aside>
-  {{ range .Pages }}
-    {{ $Position := .Param "position" }}
-    {{ if ne $Position "aside" }}
+  {{ range where (where .Pages "Params.position" "!=" "aside") "Title" "!=" "" }}
       {{ $Title := .Title }}
       {{ $Content := .Content }}
-      <section id="{{lower .Title}}">
+      <section id="{{lower .File.BaseFileName}}">
         <a>
           <h2>{{ $Title }}</h2>
           <p> {{ $Content }}</p>
           {{ if eq $Title "Team" }}
             <ul id="teamMemberList">
-              {{ range $.Site.Data.team }}
+              {{ range sort $.Site.Data.team "name" }}
                   {{ partial "team.html" . }}
               {{ end }}
             </ul>
           {{ end }}
         </a>
       </section>
-    {{ end }}
   {{ end }}
 {{ end }}
