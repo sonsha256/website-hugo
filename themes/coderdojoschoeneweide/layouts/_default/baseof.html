@@ -12,7 +12,7 @@
           {{ $style := $scss | resources.ToCSS | resources.Minify | resources.Fingerprint }}
           <link rel="stylesheet" type="text/css" href="{{$style.RelPermalink}}">
 
-          <script src="{{ .Site.BaseURL }}js/obfuscate.js"></script>
+          <script src="{{ .Site.BaseURL }}/js/obfuscate.js"></script>
       </head>
     {{end}}
     <body>
@@ -51,6 +51,6 @@
               <p>Auf GitHub gehostet</p>
           </footer>
         {{end}}
-        <script src="{{ .Site.BaseURL }}js/story-modal.js"></script>
+        <script src="{{ .Site.BaseURL }}/js/story-modal.js"></script>
     </body>
 </html>
