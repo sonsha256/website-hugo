@@ -191,11 +191,11 @@ main {
           }
         }
 
-        &:hover .front {
+        &.hovered .front {
           animation: flipAway 250ms forwards;
         }
 
-        &:hover .back {
+        &.hovered .back {
           animation: flipVisible 250ms forwards;
         }
       }
