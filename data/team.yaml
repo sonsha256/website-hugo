@@ -52,3 +52,9 @@
   background: B.Eng. Computer Engineering
   tasks: Mentoring, Fotos
   imagePath: mihail.png
+
+- name: Aidai
+  interests: Webentwicklung, Psychoanalyse, Kommunikation, Lesen, Sport, Musik
+  background: Studiert Medieninformatik im Bachelor
+  tasks: Mentoring, Fotos, Organisation
+  imagePath: aidaiko.jpg
