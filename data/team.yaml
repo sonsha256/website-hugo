@@ -35,12 +35,6 @@
   tasks: Mädchen für Alles
   imagePath: sebastian.jpg
 
-- name: Yana
-  interests: Android Development, Lesen
-  background: Vier Semester Business Analyse in Minsk, studiert jetzt Medieninformatik im Bachelor
-  tasks: Social Media
-  imagePath:
-
 - name: Mirijam
   interests: Schnuppern in verschiedenen Bereichen, z.B Web-Entwicklung und Softwareentwicklung
   background: Studiert Medieninformatik im Bachelor
