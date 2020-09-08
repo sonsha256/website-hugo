@@ -1,5 +1,5 @@
 ---
-title:  "Einstieg in die Informatik für Grundschüler\*innen - Auch ohne Computer kann man viel lernen!"
+title:  "Einstieg in die Informatik für Grundschüler*innen - Auch ohne Computer kann man viel lernen!"
 date:   2020-04-03T13:51:00+0100
 categories: [berichte]
 tags: [workshop, einstieg, unplugged, spiel, grundschule, programmieren, scratch, motoren]
