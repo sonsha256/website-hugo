@@ -1,9 +1,9 @@
 ---
-title:  "Einstieg in die Informatik für Grundschüler*innen - Auch ohne Computer kann man viel lernen!"
+title:  "Einstieg in die Informatik für Grundschüler\*innen - Auch ohne Computer kann man viel lernen!"
 date:   2020-04-03T13:51:00+0100
 categories: [berichte]
 tags: [workshop, einstieg, unplugged, spiel, grundschule, programmieren, scratch, motoren]
-authors: [Linda, Testautorin]
+authors: [Linda]
 ---
 Wie sage ich einem Roboter, wie er sich ein Brötchen schmiert, im Park Müll beiseite räumt oder einen Luftballon fängt?
 Das konnte am 5. März 2020 eine sechste Klasse der Grundschule an der Wuhlheide bei unserem Workshop zum Einstieg in die
@@ -27,7 +27,7 @@ zum selber basteln.
 
 Nicht nur analog, sondern auch digital wurde programmiert. Teilnehmer\*innen lernten, wie Servomotoren für
 Roboterbewegungen funktionieren und konnten einen von Studierenden der HTW konzipierten Miniaturkran zusammenbauen,
-den sie auch sogleich programmieren durften. Weiterhin konnten Teilnehmer*innen unsere kleinen Programmierrätsel lösen:
+den sie auch sogleich programmieren durften. Weiterhin konnten Teilnehmer\*innen unsere kleinen Programmierrätsel lösen:
 In der Programmiersprache Scratch wurden Befehle so zusammengesteckt, dass ein Roboter einen Luftballon fangen konnte.
 Die Rätsel sind übrigens auf der [Scratch-Webseite](https://scratch.mit.edu/studios/25883413/) zu finden. Einfach ein Rätsel auswählen und
 dann auf “Schau hinein” klicken - dann kann der Programmcode bearbeitet werden.
