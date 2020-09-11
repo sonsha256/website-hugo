@@ -1,7 +1,7 @@
 # Structure
 
-## The branches master and gh-pages
-This repo has two important branches: **master** and **gh-pages**. We programmed **GitHub Actions** so that each time something gets pushed to **master**, the website is built from the new code and the built code is pushed to **gh-pages**. That means that **master** contains the website source code and **gh-pages** contains the built website code. You should never need to edit **gh-pages** manually.
+## Website: built code and source code
+This repository contains the source code of our website. When pushing to it's master branch, GitHub Actions automatically builts the website to another repository: https://github.com/Coderdojo-Schoeneweide/coderdojo-schoeneweide.github.io. Only ever edit the website-hugo repo, never the built code.
 
 ## Folder Structure
 There is separate logic for the general theme and specific website content. 
