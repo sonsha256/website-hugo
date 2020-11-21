@@ -401,7 +401,7 @@ footer {
 
       input:checked {
         ~ ul {
-          max-height: 100vh;
+          max-height: 20rem;
         }
 
         ~ label::after {
