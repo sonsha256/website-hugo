@@ -1,55 +1,63 @@
-# Structure
+# CoderDojo Hugo Website
+This repository contains the source code of our website. It contains the content of the website as well as the Hugo theme used to generate the static site.
 
 ## Website: built code and source code
-This repository contains the source code of our website. When pushing to it's master branch, GitHub Actions automatically builts the website to another repository: https://github.com/Coderdojo-Schoeneweide/coderdojo-schoeneweide.github.io. Only ever edit the website-hugo repo, never the built code.
+When pushing to this repository's master branch, GitHub Actions automatically builds the website and pushes the build to another repository: https://github.com/Coderdojo-Schoeneweide/coderdojo-schoeneweide.github.io. **Only ever edit the website-hugo repository, never the built code.**
 
 ## Folder Structure
-There is separate logic for the general theme and specific website content. 
-
-### Theme
-Everything concerning layout, styling, templates goes into the theme **coderdojoschoeneweide**.
-
-#### assets/scss
-* SCSS styling files can be added here.
-* Variables in SCSS
-  * `$color-dark`: Primäre dunkle Farbe für die Website, z.B. für Text
-  * `$color-light`: Primäre helle Farbe für die Website, z.B. für Hintergründe
-  * `$color-main`: Themenfarbe (Akzentfarbe) der Website, momentan orange
-* Classes in SCSS
-  * `.wrapper`: Beschränkt die Breite des Inhalts auf eine vorgegebene Weite (momentan 900px)
-  * `.background-main`: Färbt den Hintergrund des Elements in der Farbe, die in der Variablen `$color-main` gepeichert ist
-
-#### static
-* **images** contains images that are part of the theme, such as contact icons
-* **js** contains scripts that are part of the theme like obfuscate.js for the impressum
-
-#### layouts
-* directly in the **layouts** folder you find the template (https://gohugo.io/templates/introduction/) index.html which is for the homepage
-* in **\_default** you find templates used on the content:
-  * baseof is used on each page
-  * impressum on the impressum
-  * list on the blog overview page
-  * single on individual blog post pages.
-* in **partials** you find html-snippets that can be re-used. 
+There is separate logic for the general theme and specific website content.
   
 ### Content
-Specific website content is split into multiple parts: 
-* Specific media files, going into **static** (eg. team member images)
-* specific data, going into **data** (eg. team member info)
-* specific text content, like posts or website section text, going into **content**. 
+The content of our website is split into multiple parts: Text-heavy content, structured data content and static content.
 
-Do not edit files in **resources/\_gen**. These are automatically created files, like the minified scss from the theme!
+#### Text-heavy content
+This includes stuff like the main text body of the website as well as the posts in the blog section of the website. The content is generated from the markdown files in the `content` directory.
+
+#### Structured data content
+This includes stuff like a list of team members and the contact information. Each data set is stored in a single YAML file in the `data` directory.
+
+#### Static content
+This includes stuff like images and the Teilnahmebedingungen PDF file, which should be served directly without being processed by Hugo. Static content is stored in the `static` directory.
+
+### Theme
+Everything concerning layout, styling, templates goes into the directory `themes/coderdojoschoeneweide`.
+
+#### `archetypes`
+The `archetypes` folder contains the template file for new subpages like blog-posts. You may generate new posts from this template by using the `hugo new blog/<page-title>` command from within the root directory of the project.
+
+#### `assets/scss`
+* SCSS stylesheets can be added here.
+* Variables in SCSS
+  * `$color-dark`: Primary dark color for the website, mainly used for foreground content like text
+  * `$color-light`: Primary light color for the website, mainly used as background color
+  * `$color-main`: Theme color/accent color for the website (currently orange)
+* Classes in SCSS
+  * `.wrapper`: Limits the maximum content width to a fixed value (currently 900px)
+  * `.background-main`: Tints the background of the element in the theme color (see `$color-main`)
+
+#### `layouts`
+* Directly in the `layouts` folder you can find the [template](https://gohugo.io/templates/introduction/) `index.html` which is the template for the homepage
+* In the subfolder `\_default` you can find templates used for various parts of the content:
+  * `baseof.html` is used as a base for each page
+  * `impressum.html` is used for the imprint page
+  * `list.html` is used for the blog index page
+  * `single.html` is used for the individual blog post pages
+* The subfolder `partials` contains HTML-snippets which may be re-used by including them in multiple places
+
+#### `static`
+* **images** contains images that are part of the theme, such as contact icons
+* **js** contains Javascript files that are part of the theme, like obfuscate.js for deobfuscating the contact data in the imprint
 
 # How to develop locally
-* Before developping for the first time: Install the extended version Hugo https://gohugo.io/getting-started/installing/ (hugo-extended, we need this because the regular version can not do SCSS processing which we need tho!)
+Before developing for the first time you need to [install the extended version of the Hugo binary for your system](https://gohugo.io/getting-started/installing/) (hugo-extended: we need this because the regular version does not come with SCSS processing capabilities)
 
-* Clone this Repository
-* Make a separate git branch for developing your feature if you're not doing a hotfix!
-* In the root-folder, run `hugo serve` to make hugo build the website and run a local server with the website
-* Make your changes
-* Push
-* Submit a Pull-Request for your changes to be merged into master and go live!
+* Clone this repository: `git clone https://github.com/Coderdojo-Schoeneweide/website-hugo.git`
+* Create a new git branch for developing your feature: `git checkout -b <branch_name>` (exceptions only for hotfixes!)
+* Run `hugo serve` form within the root directory to make Hugo build the website and run a local server with the website. Hugo supports live-reloading, so you don't need to restart the server each time you change something.
+* Implement and commit your changes: `git commit -m "<put commit message here>"`
+* Push to the GitHub repository: `git push origin master` (or simply `git push` if everything is set up correctly)
+* Open a pull request for your changes to be merged into master and go live!
 
 # Credits
-* We used to Hugo Quick Start (https://gohugo.io/getting-started/quick-start/) guide for the basic set up and the Hugo documentation for further work.
-* Thanks to https://thomas-leister.de/einfuehrung-in-hugo-theme-erstellen/ for the introduction on how to make own themes.
+* We used the [Hugo Quick Start guide](https://gohugo.io/getting-started/quick-start/) for the basic set up and the Hugo documentation for further work.
+* Thanks to thomas-leister.de for the [introduction on how to make own themes](https://thomas-leister.de/einfuehrung-in-hugo-theme-erstellen/).
