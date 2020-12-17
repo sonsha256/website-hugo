@@ -1,4 +1,6 @@
 # CoderDojo Hugo Website
+![github pages](https://github.com/Coderdojo-Schoeneweide/website-hugo/workflows/github%20pages/badge.svg)
+
 This repository contains the source code of our website. It contains the content of the website as well as the Hugo theme used to generate the static site.
 
 ## Website: built code and source code
