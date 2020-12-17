@@ -1,5 +1,5 @@
 - name: "mail"
-  id: "schoneweide.berlin@coderdojo.com"
+  id: "schoeneweide.berlin@coderdojo.com"
   href: "mailto:"
 
 - name: "facebook"
@@ -7,8 +7,8 @@
   href: "https://www.facebook.com/"
 
 - name: "instagram"
-  id: "coderdojoschoneweide"
-  href: "https://instagram.com/"
+  id: "coderdojoschoeneweide"
+  href: "https://www.instagram.com/"
 
 - name: "github"
   id: "CoderDojo-Schoeneweide"
