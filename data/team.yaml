@@ -17,18 +17,6 @@
   imagePath: luis.jpg
   story: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-- name: Magdalena
-  interests: Webentwicklung, Webdesign, Graphic Design
-  background: Studiert Medieninformatik im Bachelor
-  tasks: Logo Design, Social Media, Blog Posts
-  imagePath: magdalena.jpg
-
-- name: Patrick
-  interests: Ethical Hacking, Software Development, Skateboard, Fußball
-  background: 3 Jahre Ausbildung zum Fachinformatiker, studiert jetzt Angewandte Informatik im Bacheor
-  tasks: Mentoring, Social Media
-  imagePath: patrick.jpg
-
 - name: Sebastian
   interests: Von allem ein bisschen, ein bisschen mehr Autos und Technik, und Spaß am Umgang damit.
   background: NFZ Mechatroniker (die ganz schweren Autos), studiert Fahrzeugtechnik im Bachelor
