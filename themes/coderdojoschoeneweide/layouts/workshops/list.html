@@ -1,0 +1,78 @@
+{{ define "main" }}
+<section class="workshops">
+    <h2>Workshops</h2>
+    {{ $durations := slice }}
+    {{ $ages := slice }}
+    {{ $tags := slice }}
+    {{ range .Pages }}
+    {{ if not (in $durations .Params.duration) }}
+    {{ $durations = $durations | append .Params.duration }}
+    {{ end }}
+    {{ if not (in $ages .Params.age) }}
+    {{ $ages = $ages | append .Params.age }}
+    {{ end }}
+    {{ range .Params.tags }}
+    {{ if not (in $tags .) }}
+    {{ $tags = $tags | append . }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    <a href="#" id="filter-toggle">Filter <span>▸</span></a>
+    <div id="filter">
+        <div>
+            <label>
+                Alter:
+                <select class="age-filter">
+                    <option value="">Alle</option>
+                    {{ range $ages }}
+                    <option value="{{ . }}">{{ . }}</option>
+                    {{ end }}
+                </select>
+            </label>
+            <label>
+                Dauer:
+                <select class="duration-filter">
+                    <option value="">Alle</option>
+                    {{ range $durations }}
+                    <option value="{{ . }}">{{ . }}</option>
+                    {{ end }}
+                </select>
+            </label>
+            <label>
+                Kategorien:
+                {{ range $tags }}
+                <label>
+                    <input class="tag-filter" type="checkbox" value="{{ . }}">
+                    {{ . | humanize }}
+                </label>
+                {{ end }}
+            </label>
+        </div>
+    </div>
+    <ul id="results">
+        {{ range .Pages }}
+        <li data-age="{{ .Params.age }}" data-duration="{{ .Params.duration }}" data-tags="{{ .Params.tags }}">
+            <a href="{{ .RelPermalink }}">
+                <img src="{{ if .Params.image }}{{ (.Page.Resources.GetMatch .Params.image).RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/placeholder.svg{{ end }}" alt="workshop thumbnail">
+                <div>
+                    <h3>{{ .Title }}</h3>
+                    <p>
+                        <img class="icon" src="{{ .Site.BaseURL}}images/clock.svg" alt="duration icon">
+                        {{ .Params.duration }}
+                    </p>
+                    <p>
+                        <img class="icon" src="{{ .Site.BaseURL}}images/user.svg" alt="age icon">
+                        {{ .Params.age }}
+                    </p>
+                    <p>
+                        {{ range .Params.tags }}
+                        <span>#{{ . }}</span>
+                        {{ end }}
+                    </p>
+                </div>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</section>
+{{ end }}
