@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="workshops">
+<section class="all-workshops">
     <h2>Workshops</h2>
     {{ $durations := slice }}
     {{ $ages := slice }}
@@ -54,21 +54,9 @@
         <li data-age="{{ .Params.age }}" data-duration="{{ .Params.duration }}" data-tags="{{ .Params.tags }}">
             <a href="{{ .RelPermalink }}">
                 <img src="{{ if .Params.image }}{{ (.Page.Resources.GetMatch .Params.image).RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/placeholder.svg{{ end }}" alt="workshop thumbnail">
-                <div>
+                <div class="workshop-properties">
                     <h3>{{ .Title }}</h3>
-                    <p>
-                        <img class="icon" src="{{ .Site.BaseURL}}images/clock.svg" alt="duration icon">
-                        {{ .Params.duration }}
-                    </p>
-                    <p>
-                        <img class="icon" src="{{ .Site.BaseURL}}images/user.svg" alt="age icon">
-                        {{ .Params.age }}
-                    </p>
-                    <p>
-                        {{ range .Params.tags }}
-                        <span>#{{ . }}</span>
-                        {{ end }}
-                    </p>
+                    {{ partial "workshop-properties.html" . }}
                 </div>
             </a>
         </li>
