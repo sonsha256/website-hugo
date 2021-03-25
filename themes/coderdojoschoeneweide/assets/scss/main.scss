@@ -402,7 +402,7 @@ main {
     padding: 0 1rem;
 
     &.show {
-      height: 10rem;
+      height: 10rem; // Extend if needed (e.g. number of category tags increases). Remember to also increase height for mobile design.
       transition: height 200ms ease-in-out;
     }
 
