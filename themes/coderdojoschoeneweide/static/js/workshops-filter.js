@@ -15,15 +15,15 @@ document.addEventListener("DOMContentLoaded", () => {
     filterArrow = filterToggle.querySelector("span");
     filterToggle.addEventListener("click", toggleFilter);
 
-    filter.querySelector(".age-filter").addEventListener("change", event => {
+    filter.querySelector("#age-filter").addEventListener("change", event => {
         ageFilter = event.target.value !== "" ? event.target.value : null;
         updateFilterResults();
     });
-    filter.querySelector(".duration-filter").addEventListener("change", event => {
+    filter.querySelector("#duration-filter").addEventListener("change", event => {
         durationFilter = event.target.value !== "" ? event.target.value : null;
         updateFilterResults();
     });
-    filter.querySelectorAll(".tag-filter")
+    filter.querySelectorAll("#tag-filters input")
         .forEach(checkbox => checkbox.addEventListener("change", event => {
             if (event.target.checked)
                 tagFilters.push(event.target.value);

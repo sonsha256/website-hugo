@@ -19,35 +19,35 @@
     {{ end }}
     <a href="#" id="filter-toggle">Filter <span>▸</span></a>
     <div id="filter">
-        <div>
-            <label>
-                Alter:
-                <select class="age-filter">
-                    <option value="">Alle</option>
-                    {{ range $ages }}
-                    <option value="{{ . }}">{{ . }}</option>
-                    {{ end }}
-                </select>
-            </label>
-            <label>
-                Dauer:
-                <select class="duration-filter">
-                    <option value="">Alle</option>
-                    {{ range $durations }}
-                    <option value="{{ . }}">{{ . }}</option>
-                    {{ end }}
-                </select>
-            </label>
-            <label>
-                Kategorien:
+        <label for="age-filter">
+            <span>Alter:</span>
+            <select id="age-filter">
+                <option value="">Alle</option>
+                {{ range $ages }}
+                <option value="{{ . }}">{{ . }}</option>
+                {{ end }}
+            </select>
+        </label>
+        <label for="duration-filter">
+            <span>Dauer:</span>
+            <select id="duration-filter">
+                <option value="">Alle</option>
+                {{ range $durations }}
+                <option value="{{ . }}">{{ . }}</option>
+                {{ end }}
+            </select>
+        </label>
+        <label>
+            <span>Kategorien:</span>
+            <div id="tag-filters">
                 {{ range $tags }}
-                <label>
-                    <input class="tag-filter" type="checkbox" value="{{ . }}">
-                    {{ . | humanize }}
+                <label class="category">
+                    <input type="checkbox" value="{{ . }}">
+                    #{{ . }}
                 </label>
                 {{ end }}
-            </label>
-        </div>
+            </div>
+        </label>
     </div>
     <ul id="results">
         {{ range .Pages }}
