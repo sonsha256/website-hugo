@@ -29,12 +29,6 @@
   tasks:
   imagePath: mirijam.jpg
 
-- name: Mihail
-  interests: Embedded Systems, Home Automation & IoT, Fotografie & DIY
-  background: B.Eng. Computer Engineering
-  tasks: Mentoring, Fotos
-  imagePath: mihail.png
-
 - name: Sonja
   interests: Gesundheitsinformatik, Sprachen, Lernen
   background: Fremdsprachen-korrespondentin, studiert Angewandte Informatik im Bachelor
