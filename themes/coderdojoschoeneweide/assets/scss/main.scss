@@ -394,16 +394,17 @@ main {
 
   #filter {
     border: 1px solid $color-dark;
-    height: 0;
+    height: auto;
+    max-height: 0;
     overflow: hidden;
-    transition: height 200ms ease-in-out;
+    transition: max-height 200ms ease-in-out;
     display: flex;
     flex-direction: column;
     padding: 0 1rem;
 
     &.show {
-      height: 10rem; // Extend if needed (e.g. number of category tags increases). Remember to also increase height for mobile design.
-      transition: height 200ms ease-in-out;
+      max-height: 11rem; // Extend if needed (e.g. number of category tags increases). Remember to also increase height for mobile design.
+      transition: max-height 200ms ease-in-out;
     }
 
     & > label {
@@ -463,6 +464,12 @@ main {
 
   div {
     padding: 0 1rem;
+  }
+}
+
+.single-workshop {
+  img {
+    max-width: 100%;
   }
 }
 
@@ -549,7 +556,7 @@ footer {
     #filter {
 
       &.show {
-        height: 17rem;
+        max-height: 21rem;
       }
 
       & > label {

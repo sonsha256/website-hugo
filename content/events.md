@@ -1,5 +1,6 @@
 ---
 title: "Veranstaltungen"
+position: "main"
 weight: 4
 ---
 

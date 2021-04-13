@@ -10,7 +10,7 @@
         {{ end }}
     {{ end }}
   </aside>
-  {{ range where (where .Pages "Params.position" "!=" "aside") "Title" "!=" "" }}
+  {{ range where .Pages "Params.position" "main" }}
       {{ $Title := .Title }}
       {{ $Content := .Content }}
       <section id="{{lower .File.BaseFileName}}">

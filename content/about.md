@@ -1,5 +1,6 @@
 ---
 title: "Über uns"
+position: "main"
 weight: 3
 ---
 Das CoderDojo Schöneweide ist ein Club für Kinder und Jugendliche zwischen
