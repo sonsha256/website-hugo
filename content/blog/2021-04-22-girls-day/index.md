@@ -29,13 +29,13 @@ Dann wurde an Konzepten gearbeitet.
 
 Die Projektideen der Teilnehmerinnen, die auf den Bildern zu sehen sind, zeigten ein breites Spektrum an Themen und möglichen
 Umsetzungen. Viele hatten sogar mehrere Ideen, die man umsetzen könnte. Die Themen aus den vorhergehenden Diskussionen
-wurden aufgegriffen. Wie man auf den Bildern sehen kann, gab es vor allem Projekte zum Thema Umweltschutz, aber auch andere
+wurden aufgegriffen. Wie man auf den Bildern sehen kann, gab es vor allem Projekte zum Thema Umweltschutz. Aber auch andere
 gesellschaftliche Themen, wie zum Beispiel Gleichberechtigung, wurden angegangen.
 
 {{< figure width="50%" src="images/Hallo.png" title="Ein Suchspiel in dem nach Situationen geforscht wird, in denen keine Gleichberechtigung herrscht" >}}
 
-Eine Idee allein ist schön, aber zum Leben erwacht sie erst, wenn man sie umsetzt. Das machten wir dann auch. Und zwar mit [Scratch](https://scratch.mit.edu/),
-einem Online Tool, mit dem man schnell Software versuchsweise umsetzen kann.
+Eine Idee allein ist schön, aber zum Leben erwacht sie erst, wenn man sie umsetzt.
+Das taten wir mit einem Online-Tool namens [Scratch](https://scratch.mit.edu/), welches dazu dient schnell Software versuchsweise umzusetzen.
 Auf den Bildern kann man die Projekte der Teilnehmerinnen sehen.
 
 Es gab Spiele in denen man das Ziel verfolgte, nicht mehr benötigte Industrieanlagen abzureißen und dafür neue Grünflächen zu erschaffen. In gleich
