@@ -12,11 +12,12 @@ Und ist es überhaupt gut so wie sie es tut?
 
 {{< figure width="50%" src="images/WieKommstDuZurSchule.png" title="Eine Projektidee: Wie kommst du zur Schule?" >}}
 
-Besonderes Interesse zeigten die Teilnehmerinnen an den Themen Umweltschutz und Nachhaltigkeit. Wie kann das
-gesellschaftliche Interesse an Umwelt und dessen Schutz in Software umgesetzt oder behandelt werden?
+Besonderes Interesse zeigten die Teilnehmerinnen an den Themen Umweltschutz und Nachhaltigkeit. Ein aktuelles Thema, wie man auch an
+anderen Veranstaltungen, wie dem [Earth Day](https://www.earthday.org/) sehen kann. Wie kann das gesellschaftliche Interesse an Umwelt und
+dessen Schutz in Software umgesetzt oder behandelt werden?
 
-Oder konkreter: Wie können Resourcen wie Kleidung/Essen/fossile Brennstoffe mit Hilfe von Software nachhaltiger genutzt werden? Mit diesen
-und anderen Fragen beschäftigten wir uns, wobei es vor allem interessant war die unterschiedlichen Sichtweisen zu erfahren.
+Oder konkreter: Wie können Resourcen wie Kleidung/Essen/fossile Brennstoffe mit Hilfe von Software nachhaltiger genutzt werden?
+Interessant waren für uns vor allem die schon sehr erwachsenen Sichtweisen der Teilnehmerinnen.
 
 {{< figure width="50%" src="images/HappyClothes.png" title="Happy Clothes: Eine App mit der man den Umwelteinfluss von Kleidungsstücken einsehen kann" >}}
 
