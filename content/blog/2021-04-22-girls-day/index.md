@@ -6,7 +6,7 @@ tags: [workshop, einstieg, spiel, grundschule, programmieren, scratch]
 authors: [Bruno]
 ---
 Bei unserem Workshop zum Girls Day 2021 haben wir vor allem das Zusammenspiel zwischen Software und Gesellschaft erforscht.
-Am 22. April 2021 haben sich 18 Schülerinnen zusammen mit 7 Mentor:innen zusammen gesetzt (virtuell natürlich) und sind
+Am 22. April 2021 haben sich 18 Schülerinnen zusammen mit 7 Mentorinnen\* zusammen gesetzt (virtuell natürlich) und sind
 der Frage nachgegangen, wie Software unser gesellschaftliches Leben beeinflusst. Tut sie das überhaupt? Wo tut sie es?
 Und ist es überhaupt gut so wie sie es tut?
 
