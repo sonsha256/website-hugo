@@ -17,7 +17,7 @@ Lernziele:
 * Die Teilnehmenden können mit Scratch Tonaufnahmen machen.
 * Die Teilnehmenden können mit Hilfe des Scratch-Grafikeditors einfache Grafiken erstellen.
 * Die Teilnehmenden können bei Scratch die Kostüme einer Figur programmatisch kontrollieren.
-* Die Teilnehmenden verstehen den Zusammenhang zwischen gesagten Buchstaben und der Position der Lippe und Zunge während dessen.
+* Die Teilnehmenden verstehen den Zusammenhang zwischen gesagten Buchstaben und der Position der Lippe und Zunge dabei.
 
 Teilnehmende benötigen:
 * Computer oder Tablet

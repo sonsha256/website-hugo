@@ -9,8 +9,8 @@ image = "filter.png"
 Im Online-Workshop "Foto-Filter-App" erhalten die Teilnehmenden einen Einblick darin, 
 wie man intelligente Foto-Filter, so genannte "Lenses", wie es sie zum Beispiel bei Instagram oder SnapChat gibt, programmiert. 
 Dafür wird PocketCode verwendet, eine App für mobile Geräte, mit der man Apps programmieren kann. 
-Nach einer kurzen Entdeckungstour durch PocketCode an Hand des bereits in der App vorhandenen Beispielprojektes 
-verwenden die Teilnehmenden zusammen mit ihren Mentor*innen, Eltern, oder alleine die von uns zusammengestellte
+Nach einer kurzen Entdeckungstour durch PocketCode anhand des bereits in der App vorhandenen Beispielprojektes 
+verwenden die Teilnehmenden zusammen mit ihren Mentor:innen, Eltern, oder alleine die von uns zusammengestellte
 Anleitung, um einen eigenen Foto-Filter zu entwickeln.
 
 Lernziele:

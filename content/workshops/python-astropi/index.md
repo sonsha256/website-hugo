@@ -7,9 +7,9 @@ image = "astro-pi.png"
 +++
 
 Im Online-Workshop "Astro Pi - Code im Weltraum" im Rahmen des 
-Projektes ["Mission Zero" der RaspberryPi Foundation](https://astro-pi.org/mission-zero/resources#official-guidelines) erhalten die Teilnehmenden die Möglichkeit,
+Projektes ["Mission Zero" der RaspberryPi Foundation](https://astro-pi.org/mission-zero/) erhalten die Teilnehmenden die Möglichkeit,
 ein Python Programm zu schreiben, das dann auf der ISS abgespielt wird. Die Teilnehmenden können dafür eine maximal 30 Sekunden lange Animation machen, 
-bei der mindestens die Luftfeuchtigkeit auf der ISS angezeigt wird. Zusätzlich können Teilnehmende die Astronaut*innen grüßen, Luftdruck und Temperatur anzeigen lassen 
+bei der mindestens die Luftfeuchtigkeit auf der ISS angezeigt wird. Zusätzlich können Teilnehmende die Astronaut:innen grüßen, Luftdruck und Temperatur anzeigen lassen 
 oder Bilder hinzufügen. Benutzt wird der "Online Sense HAT Emulator" - ein Programm, was den AstroPi-Computer mit Sensoren simuliert.
 
 Lernziele:

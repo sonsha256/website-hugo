@@ -7,7 +7,7 @@ tags = ["scratch", "animation", "design"]
 +++
 
 Im Online-Workshop "Digitale Grußkarten basteln" erhalten die Teilnehmenden einen Einblick darin, 
-wie man mit Scratch Animationen machen kann und schöne, digitale Grußkarten bastelt.
+wie man mit Scratch Animationen machen kann und schöne digitale Grußkarten bastelt.
 Die Animationen werden dabei durch die Bewegung, den Kostümwechsel und Grafikeffekte von Figuren in Scratch erzeugt.
 Je nach Fortschritt der Teilnehmenden können auch andere Mittel der Animation, wie das Klonen von Figuren oder die Nutzung des "Malstifts" verwendet werden.
 

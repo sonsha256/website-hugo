@@ -12,7 +12,7 @@ Nach einer Phase des Programmierens treten zwei Teams gegeneinander an: Wer scha
 den Luftballon in der Mitte des Parkours zum Platzen zu bringen? 
 Für die Durchquerung des Parkours werden Linien- und Abstandssensoren verwendet.
 
-Die mBlock-Programme zum Steuern der mBots werden von den Teilnehmenden mit Mentor*innen vor Ort geteilt,
+Die mBlock-Programme zum Steuern der mBots werden von den Teilnehmenden mit Mentor:innen vor Ort geteilt,
 die die Programme dann ausführen lassen. Da die mBots von einer an der Decke montierten Kamera aufgenommen werden, 
 können die Teilnehmenden live verfolgen, ob ihr Programm funktioniert.
 
@@ -25,7 +25,7 @@ Lernziele:
 
 Teilnehmende benötigen:
 * Computer oder Tablet
-* einen [mBlock-Planet](https://planet.mblock.cc/) account
+* Einen [mBlock-Planet](https://planet.mblock.cc/) Account
 * Browser oder mBlock App
 * Mikrofon und Lautsprecher
 * Papier und Stifte
