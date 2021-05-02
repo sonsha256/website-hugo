@@ -38,13 +38,14 @@ The `archetypes` folder contains the template file for new subpages like blog-po
   * `.background-main`: Tints the background of the element in the theme color (see `$color-main`)
 
 #### `layouts`
-* Directly in the `layouts` folder you can find the [template](https://gohugo.io/templates/introduction/) `index.html` which is the template for the homepage
-* In the subfolder `\_default` you can find templates used for various parts of the content:
-  * `baseof.html` is used as a base for each page
+* Directly in the `layouts` folder you can find the [template](https://gohugo.io/templates/introduction/) `index.html` which is the template for the homepage of our website
+* In the subfolder `_default` you can find templates used for various parts of the content:
+  * `baseof.html` is used as a base for each page and contains the HTML head, the header and the footer of the website
   * `impressum.html` is used for the imprint page
-  * `list.html` is used for the blog index page
-  * `single.html` is used for the individual blog post pages
+  * `list.html` is used for the blog index page (and any other list index page which doesn't have a custom template)
+  * `single.html` is used for the individual blog post pages (and any other page which doesn't have a custom template)
 * The subfolder `partials` contains HTML-snippets which may be re-used by including them in multiple places
+* The subfolder `workshops` contains the templates for the workshops overview page (`list.html`) and the single workshop pages (`single.html`)
 
 #### `static`
 * **images** contains images that are part of the theme, such as contact icons
@@ -55,9 +56,9 @@ Before developing for the first time you need to [install the extended version o
 
 * Clone this repository: `git clone https://github.com/Coderdojo-Schoeneweide/website-hugo.git`
 * Create a new git branch for developing your feature: `git checkout -b <branch_name>` (exceptions only for hotfixes!)
-* Run `hugo serve` form within the root directory to make Hugo build the website and run a local server with the website. Hugo supports live-reloading, so you don't need to restart the server each time you change something.
+* Run `hugo serve` from within the root directory to make Hugo build the website and run a local server serving the website. Hugo supports live-reloading, so you don't need to restart the server each time you change something.
 * Implement and commit your changes: `git commit -m "<put commit message here>"`
-* Push to the GitHub repository: `git push origin master` (or simply `git push` if everything is set up correctly)
+* Push to the GitHub repository: `git push -u origin <branch_name>` (or simply `git push` if you've pushed to the branch before)
 * Open a pull request for your changes to be merged into master and go live!
 
 # Credits
