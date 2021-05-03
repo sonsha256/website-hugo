@@ -35,3 +35,10 @@
   tasks:
   imagePath: sonja.jpg
   story: Was bringt einem Wissen, wenn man es nicht anwenden oder mit anderen teilen kann?
+
+- name: Edwin
+  interests: Data Science, Radsport, Wandern
+  background: gelernter Medientechniker, studiert Angewandte Informatik im Bachelor
+  tasks: Mentoring, Website
+  imagePath: edwin.jpg
+  story: Früh übt sich, was ein -kleiner- Meister werden will!
