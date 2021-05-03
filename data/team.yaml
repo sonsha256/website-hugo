@@ -42,3 +42,10 @@
   tasks: Mentoring, Website
   imagePath: edwin.jpg
   story: Früh übt sich, was ein -kleiner- Meister werden will!
+
+- name: Philipp
+  interests: Data Science, Programmieren, Musik
+  background: Qualitätsmanager, studiert Angewandte Informatik im Bachelor
+  tasks: Website und YouTube
+  imagePath: philipp.jpg
+  story: "Code is like humor. When you have to explain it, it's bad."
