@@ -35,3 +35,10 @@
   tasks:
   imagePath: sonja.jpg
   story: Was bringt einem Wissen, wenn man es nicht anwenden oder mit anderen teilen kann?
+
+- name: Philipp
+  interests: Data Science, Programmieren, Musik
+  background: Qualitätsmanager, studiert Angewandte Informatik im Bachelor
+  tasks: Website und YouTube
+  imagePath: philipp.jpg
+  story: "Code is like humor. When you have to explain it, it's bad."
