@@ -28,7 +28,8 @@ einer richtigen Hexe miterleben konnte, genauso wie kleine Spiele, in denen Magi
 
 Gegen Ende des Workshops versammelten wir uns noch einmal in einer großen Runde und zeigten uns gegenseitig unsere Projekte. Wirklich gefreut hat uns wie die
 Teilnehmer:innen auf die Ergebnisse der anderen reagierten. Gerade den Teilnehmer:innen, die noch nicht so viel Erfahrung mit Scratch hatten wurde Mut gemacht.
-Wir hatten im Vorfeld überlegt, ob wir eine kurze Evaluationsfrage stellen, die sich dann aber erübrigte, da die Kinder von sich aus schon meinten, dass es ihnen
-Spaß gemacht hatte. Das hat uns natürlich sehr gefreut.
 
 {{< figure width="50%" src="images/Raumschiff.png" title="Das Raumschiff Spiel" >}}
+
+Wir hatten im Vorfeld überlegt, ob wir eine kurze Evaluationsfrage stellen, die sich dann aber erübrigte, da die Kinder von sich aus schon meinten, dass es ihnen
+Spaß gemacht hatte. Das hat uns natürlich sehr gefreut.
