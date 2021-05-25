@@ -34,21 +34,21 @@
   story:
 
 - name: Janine
-  imagePath: jane.jpg
+  imagePath: jane.png
   tasks: Webentwicklung, Mentoring, PR
   interests: Musik mit der Band, Lernen, die Welt bereisen
   background: Angewandte Informatik (Master) - Erfahrung in Web-Tech (ehr Frontend), Projekt- u. Event Management, Marketing, Social Media, Youtube
   story: Es ist nie zu spät etwas zu Lernen! Ich habe erst mit Mitte Zwanzig angefangen zu programmieren und trotz des Bachelors würde ich behaupten, dass ich all meine Codingskills über Online-Tutorials und Youtube Videos aufgebaut habe. Jetzt freue ich mich, das Wissen und meine Erfahrungen an andere weitergeben zu können.
 
 - name: Krist
-  imagePath: img.jpg
+  imagePath:
   tasks: Didaktik, Mentoring, Programming
   interests: Klavierspielen, Videospiele, Game Design, Schach und Lesen
   background: Medieninformatik (Bachelor)
   story: Kinder mögen es, Puzzle und Rätsel zu lösen. Programmieren erinnert mich etwas daran, weshalb es mir so Freude bereitet. Ich will das teilen.
 
 - name: Lara
-  imagePath: lara.jpg
+  imagePath: lara.PNG
   tasks: Mentoring, Social Media
   interests: Rollerskating und Kochen
   background: Angewandte Informatik (Bachelor) - Schwerpunkt Data Science, SHK an der HTW
@@ -83,7 +83,7 @@
   story:
 
 - name: Matthias
-  imagePath: img.jpg
+  imagePath:
   tasks: Programming, Mentoring, Code-Kata
   interests:
   background: Wirtschaftsinformatik (Bachelor), Kenntnisse in der Java-Welt
@@ -132,7 +132,7 @@
   story: Was bringt einem Wissen, wenn man es nicht anwenden oder mit anderen teilen kann?
 
 - name: Timur
-  imagePath: timur.jpg
+  imagePath: timur.jpeg
   tasks: Unterstützung Webseite, PR und Organisation
   interests: Sport, Zeit mit Freunden verbringen, Festivals und Programmieren
   background: Wirtschaftsinformatik, Web-Developer .Net (Fokus Backend) und Android Entwicklung
