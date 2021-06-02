@@ -23,12 +23,6 @@
   tasks: Mädchen für Alles
   imagePath: sebastian.jpg
 
-- name: Mirijam
-  interests: Schnuppern in verschiedenen Bereichen, z.B Web-Entwicklung und Softwareentwicklung
-  background: Studiert Medieninformatik im Bachelor
-  tasks:
-  imagePath: mirijam.jpg
-
 - name: Sonja
   interests: Gesundheitsinformatik, Sprachen, Lernen
   background: Fremdsprachen-korrespondentin, studiert Angewandte Informatik im Bachelor
