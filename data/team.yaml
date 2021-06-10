@@ -1,45 +1,126 @@
-- name: Linda
-  interests: Webentwicklung, Data Science, Scratch
-  background: Studiert Medieninformatik im Master und leitet Informatik-Übungen an der HTW
-  tasks: Projekt Management, Mentoring, Webseite
-  imagePath: linda.jpg
+- name: Alex
+  imagePath: alex.jpg
+  tasks: Mentoring lernen, Web Development & Design
+  interests: Fotografie, Radfahren und Programmierprojekte
+  background: Informatiker Ausbildung, Medieninformatik Schwerpunkt Web
+  story: CoderDojo ist für Kinder eine super Möglichkeit in die Programmierwelt einzusteigen. Ich bin froh, wenn ich Projekte wie dieses unterstützen kann.
 
-- name: Lotte
-  interests: Webentwicklung, Organisieren, Menschen
-  background: Studiert Medieninformatik im Bachelor
-  tasks: Mentoring, Organisation
-  imagePath: lotte.jpg
-
-- name: Luis
-  interests: Game Development, Webentwicklung, Lesen
-  background: Studiert Medieninformatik im Bachelor
-  tasks: Webseite
-  imagePath: luis.jpg
-  story: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-- name: Sebastian
-  interests: Von allem ein bisschen, ein bisschen mehr Autos und Technik, und Spaß am Umgang damit.
-  background: NFZ Mechatroniker (die ganz schweren Autos), studiert Fahrzeugtechnik im Bachelor
-  tasks: Mädchen für Alles
-  imagePath: sebastian.jpg
-
-- name: Sonja
-  interests: Gesundheitsinformatik, Sprachen, Lernen
-  background: Fremdsprachen-korrespondentin, studiert Angewandte Informatik im Bachelor
-  tasks:
-  imagePath: sonja.jpg
-  story: Was bringt einem Wissen, wenn man es nicht anwenden oder mit anderen teilen kann?
+- name: Bruno
+  imagePath: bruno.jpg
+  tasks: Mentoring, Programming, Didaktik
+  interests: Musik
+  background: Medieninformatik, Lehrbeauftragter an der HTW
+  story: Über meine Arbeit bin ich total zufällig an eine Stelle als Tutor gekommen und seit dem interessiert an Education. Ich habe dann über die Hochschule vom CoderDojo erfahren und mitgemacht.
 
 - name: Edwin
+  imagePath: edwin.jpg
+  tasks: Mentoring, Website
   interests: Data Science, Radsport, Wandern
   background: gelernter Medientechniker, studiert Angewandte Informatik im Bachelor
-  tasks: Mentoring, Website
-  imagePath: edwin.jpg
   story: Früh übt sich, was ein -kleiner- Meister werden will!
 
+- name: Fenja
+  imagePath: fenja.jpg
+  tasks: Mentoring, Didaktik, Koordination & Kommunikation
+  interests:
+  background: Optical Sciences (Master) an der HU, Lehrerfahrung, Python und MatLab
+  story:
+
+- name: Jakob
+  imagePath: jakob.jpg
+  tasks: Webentwicklung, YT Kanal, PR
+  interests: Laufen, Fußball, Wassersport und Schlagzeug spielen
+  background: Medieninformatik (Master), Kenntnisse im Full-Stack Development und Webdesign
+  story:
+
+- name: Janine
+  imagePath: jane.png
+  tasks: Webentwicklung, Mentoring, PR
+  interests: Musik mit der Band, Lernen, die Welt bereisen
+  background: Angewandte Informatik (Master) - Erfahrung in Web-Tech (ehr Frontend), Projekt- u. Event Management, Marketing, Social Media, Youtube
+  story: Es ist nie zu spät etwas zu Lernen! Ich habe erst mit Mitte Zwanzig angefangen zu programmieren und trotz des Bachelors würde ich behaupten, dass ich all meine Codingskills über Online-Tutorials und Youtube Videos aufgebaut habe. Jetzt freue ich mich, das Wissen und meine Erfahrungen an andere weitergeben zu können.
+
+- name: Lara
+  imagePath: lara.PNG
+  tasks: Mentoring, Social Media
+  interests: Rollerskating und Kochen
+  background: Angewandte Informatik (Bachelor) - Schwerpunkt Data Science, SHK an der HTW
+  story:
+
+- name: Linda
+  imagePath: linda.jpg
+  tasks: Projekt Management, Mentoring, Webseite
+  interests: Webentwicklung, Data Science, Scratch
+  background: Studiert Medieninformatik im Master und leitet Informatik-Übungen an der HTW
+  story: 2014 habe ich von CoderDojo erfahren. Glücklicherweise gab es ein CoderDojo in Karlsruhe, dem ich mich anschließen konnte. Später ergab sich durch einen Kurs an der HTW Berlin die Chance, ein eigenes Dojo zu gründen!
+
+- name: Lotte
+  imagePath: lotte.jpg
+  tasks: Gründungsmitglied, Mentoring, Organisation
+  interests: Webentwicklung, Organisieren, Menschen
+  background: Studiert Medieninformatik im Master
+  story:
+
+- name: Luis
+  imagePath: luis.jpg
+  tasks: Webseite
+  interests: Game Development, Webentwicklung, Lesen
+  background: Studiert Medieninformatik im Master
+  story: Es macht mir Spaß, mein theoretische Wissen an der Webseite von CoderDojo ins Praktische umzusetzen. Ich hatte auf Facebook einen CoderDojo Post gesehen. Nach der Kontaktaufnahme dauerte es nicht lange, bis zu einem ersten Treffen mit dem Team.
+
+- name: Matthias
+  imagePath:
+  tasks: Programming, Mentoring, Code-Kata
+  interests:
+  background: Wirtschaftsinformatik (Bachelor), Kenntnisse in der Java-Welt
+  story:
+
+- name: Nadya
+  imagePath: nadya.jpg
+  tasks: Programmieren
+  interests: Fahrrad fahren, Yoga, Lesen, Reisen
+  background: Medieninformatik (Bachelor), Kenntnisse in JS, Java
+  story:
+
 - name: Philipp
+  imagePath: philipp.jpg
+  tasks: Website und YouTube
   interests: Data Science, Programmieren, Musik
   background: Qualitätsmanager, studiert Angewandte Informatik im Bachelor
-  tasks: Website und YouTube
-  imagePath: philipp.jpg
   story: "Code is like humor. When you have to explain it, it's bad."
+
+- name: Sabina
+  imagePath: sabina.jpg
+  tasks:
+  interests: Lesen, Filme gucken und Kurzgeschichten schreiben
+  background: Informatik und Wirtschaft
+  story:
+
+- name: Sebastian
+  imagePath: sebastian.jpg
+  tasks: Mädchen für Alles
+  interests: Von allem ein bisschen, ein bisschen mehr Autos und Technik, und Spaß am Umgang damit.
+  background: NFZ Mechatroniker (die ganz schweren Autos), studiert Fahrzeugtechnik im Bachelor
+  story: Ich war einfach zur richtigen Zeit am richtigen Ort. Bei einer Veranstaltung habe ich mit entwickelt und bin über das Programm HTW Hilft auf CoderDojo aufmerksam geworden.
+
+- name: Sonja
+  imagePath: sonja.jpg
+  tasks: Mentoring lernen, PR, Gestaltung
+  interests: Gesundheitsinformatik, Sprachen, Lernen
+  background: Fremdsprachen-korrespondentin, studiert Angewandte Informatik im Bachelor
+  story: Was bringt einem Wissen, wenn man es nicht anwenden oder mit anderen teilen kann?
+
+- name: Timur
+  imagePath: timur.jpeg
+  tasks: Unterstützung Webseite, PR und Organisation
+  interests: Sport, Zeit mit Freunden verbringen, Festivals und Programmieren
+  background: Wirtschaftsinformatik, Web-Developer .Net (Fokus Backend) und Android Entwicklung
+  story:
+
+- name: Uyen
+  imagePath: uyen.jpg
+  tasks: Programmieren, (Web)Design, Mentoring
+  interests: Klavier, Backen, Kochen und Videospiele
+  background:  Medieninformatik (Bachelor)
+  story: In some ways, programming is like painting. You start with a blank canvas and certain basic raw materials. You use a combination of science, art, and craft to determine what to do with them.
+  
