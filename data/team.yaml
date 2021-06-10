@@ -10,7 +10,7 @@
   tasks: Mentoring, Programming, Didaktik
   interests: Musik
   background: Medieninformatik, Lehrbeauftragter an der HTW
-  story: Über meine Arbeit bin ich total zufällig an eine Stelle als Tutor gekommen und seid dem interessiert an Education. Ich habe dann über die Hochschule vom Coderdojo erfahren und mit gemacht.
+  story: Über meine Arbeit bin ich total zufällig an eine Stelle als Tutor gekommen und seit dem interessiert an Education. Ich habe dann über die Hochschule vom CoderDojo erfahren und mitgemacht.
 
 - name: Edwin
   imagePath: edwin.jpg
@@ -40,13 +40,6 @@
   background: Angewandte Informatik (Master) - Erfahrung in Web-Tech (ehr Frontend), Projekt- u. Event Management, Marketing, Social Media, Youtube
   story: Es ist nie zu spät etwas zu Lernen! Ich habe erst mit Mitte Zwanzig angefangen zu programmieren und trotz des Bachelors würde ich behaupten, dass ich all meine Codingskills über Online-Tutorials und Youtube Videos aufgebaut habe. Jetzt freue ich mich, das Wissen und meine Erfahrungen an andere weitergeben zu können.
 
-- name: Krist
-  imagePath:
-  tasks: Didaktik, Mentoring, Programming
-  interests: Klavierspielen, Videospiele, Game Design, Schach und Lesen
-  background: Medieninformatik (Bachelor)
-  story: Kinder mögen es, Puzzle und Rätsel zu lösen. Programmieren erinnert mich etwas daran, weshalb es mir so Freude bereitet. Ich will das teilen.
-
 - name: Lara
   imagePath: lara.PNG
   tasks: Mentoring, Social Media
@@ -59,41 +52,27 @@
   tasks: Projekt Management, Mentoring, Webseite
   interests: Webentwicklung, Data Science, Scratch
   background: Studiert Medieninformatik im Master und leitet Informatik-Übungen an der HTW
-  story: Vor etwa 5 Jahren habe ich in Italien vom CoderDojo erfahren. Dabei machte mit das Mentoring so viel Spaß, dass ich dafür extra bis Karlsruhe gefahren bin. Später ergab sich die Chance, ein eigenes Dojo zu Gründen! Diese ergab sich durch einen AWE-Kurs an der HTW in Berlin Schöneweide. Dort trat auch Sebastian dem CoderDojo bei.
+  story: 2014 habe ich von CoderDojo erfahren. Glücklicherweise gab es ein CoderDojo in Karlsruhe, dem ich mich anschließen konnte. Später ergab sich durch einen Kurs an der HTW Berlin die Chance, ein eigenes Dojo zu gründen!
 
 - name: Lotte
   imagePath: lotte.jpg
   tasks: Gründungsmitglied, Mentoring, Organisation
   interests: Webentwicklung, Organisieren, Menschen
-  background: Studiert Medieninformatik im Bachelor
+  background: Studiert Medieninformatik im Master
   story:
 
 - name: Luis
   imagePath: luis.jpg
   tasks: Webseite
   interests: Game Development, Webentwicklung, Lesen
-  background: Studiert Medieninformatik im Bachelor
+  background: Studiert Medieninformatik im Master
   story: Es macht mir Spaß, mein theoretische Wissen an der Webseite von CoderDojo ins Praktische umzusetzen. Ich hatte auf Facebook einen CoderDojo Post gesehen. Nach der Kontaktaufnahme dauerte es nicht lange, bis zu einem ersten Treffen mit dem Team.
-
-- name: Marcel
-  imagePath: marcel.jpg
-  tasks: Programmieren, Workshop-Konzeption
-  interests:
-  background: Wirtschaftsinformatik
-  story:
 
 - name: Matthias
   imagePath:
   tasks: Programming, Mentoring, Code-Kata
   interests:
   background: Wirtschaftsinformatik (Bachelor), Kenntnisse in der Java-Welt
-  story:
-
-- name: Mirijam
-  imagePath: mirijam.jpg
-  tasks:
-  interests: Web-Entwicklung und Softwareentwicklung
-  background: Studiert Medieninformatik im Bachelor
   story:
 
 - name: Nadya
