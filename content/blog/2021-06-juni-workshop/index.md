@@ -7,35 +7,25 @@ authors: [Bruno]
 ---
 
 Am 22.06.2021 haben wir uns in einer etwas kleineren Runde zusammengefunden und einen Scratch-Workshop veranstaltet.
-Das etwas scherzhafte Thema war dieses mal "Dramas mit Lamas". Da wir es den Teilnehmer:innen ermöglichen wollten auch an alten
-Projekten weiter zu arbeiten, gab es auch die Möglichkeit das Thema zu ignorieren, was auch von 50% der Teilnehmer:innen genutzt wurde.
 
-Teilgenommen haben 4 Mentor:innen und 3 Teilnehmer:innen.
-Der wohl erste Workshop bei dem es mehr Mentor:innen als Teilnehmer:innen gab. Gerade durch die kleine Runde war die Stimmung
-sehr entspannt.
-
-- Weder Dramas noch Lamas ist ein Wort
-- 50% haben sich nicht an das Thema gehalten
-
-<!-- TODO: replace image -->
-{{< figure width="50%" src="TODO" title="TODO" >}}
+Teilgenommen haben 4 Mentor:innen und 3 Teilnehmer:innen. Der wohl erste Workshop bei dem es mehr Mentor:innen als Teilnehmer:innen gab.
+Gerade durch die kleine Runde war die Stimmung sehr entspannt.
 
 Wie immer zu Beginn eines Workshops stellten sich zuerst die Mentor:innen vor. Durch die kleine Runde bot es sich diese mal an, dass sich auch die
-Teilnehmer:innen direkt vorstellten. Auch Gruppen mussten dieses mal nicht gebildet werden.
+Teilnehmer:innen direkt vorstellten. Auch Gruppen haben wir dieses mal nicht gebildet.
 
-<!-- TODO: replace image -->
-{{< figure width="50%" src="TODO" title="TODO" >}}
+Nach der Vorstellungsrunde wurde das Thema präsentiert. Das etwas scherzhafte Thema war dieses mal "Dramas mit Lamas". Da wir es den Teilnehmer:innen ermöglichen
+wollten auch an alten Projekten weiter zu arbeiten, gab es auch diese Möglichkeit, was auch von einem der Teilnehmer genutzt wurde.
 
+{{< figure width="50%" src="images/ListigesLama.png" title="Das Lama überlisted den Puma" >}}
 
+Das obrige Bild zeigt eines der Projekte bei dem ein cleveres Lama einen hungrigen Panther überlistet. Die Geschichte geht noch ein bisschen weiter und das Lama
+schafft es sogar noch aus der Situation einen Vorteil für sich zu gewinnen.
 
-<!-- TODO: replace image -->
-{{< figure width="50%" src="TODO" title="TODO" >}}
+{{< figure width="50%" src="images/Rakete.png" title="Die Rakete muss den Meteoriten ausweichen" >}}
 
-Gegen Ende des Workshops versammelten wir uns noch einmal in einer großen Runde und zeigten uns gegenseitig unsere Projekte. Wirklich gefreut hat uns wie die
-Teilnehmer:innen auf die Ergebnisse der anderen reagierten. Gerade den Teilnehmer:innen, die noch nicht so viel Erfahrung mit Scratch hatten wurde Mut gemacht.
+In einem weiteren Projekt steuert man eine kleine Rakete durch einen Meteoritenhaufen. Die Rakete kann sich zur Seite und nach vorne und hinten bewegen. Außerdem
+kann man einen Laserstrahl verwenden, um die auftauchenden Meteoriten abzuwehren.
 
-<!-- TODO: replace image -->
-{{< figure width="50%" src="TODO" title="TODO" >}}
-
-Wir hatten im Vorfeld überlegt, ob wir eine kurze Evaluationsfrage stellen, die sich dann aber erübrigte, da die Kinder von sich aus schon meinten, dass es ihnen
-Spaß gemacht hatte. Das hat uns natürlich sehr gefreut.
+In der Showtime wurden diese Projekte dann stolz von den Teilnehmer:innen präsentiert.
+Gefreut haben wir uns auch über die neuen Gesichter unter den Mentor:innen.
