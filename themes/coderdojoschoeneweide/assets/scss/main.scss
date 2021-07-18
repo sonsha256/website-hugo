@@ -101,189 +101,46 @@ nav {
 }
 
 main {
-  &.columns {
-    display: grid;
-    grid-template-areas: "about aside" "events aside" "broad broad";
-    grid-template-columns: 2fr 1fr;
-  }
-
   section {
     padding: $standard-padding 1.5rem;
   }
 
-  #about {
-    grid-area: about;
+  .two-cols, .broad {
+    padding: 0;
   }
 
-  #events {
-    grid-area: events;
-  }
+  .two-cols {
+    display: flex;
+    justify-content: space-between;
 
-  #team {
-    grid-area: broad;
-    background-color: $color-main;
-    margin-top: $wrapper-margin;
-
-    h2 {
-      text-align: center;
-      color: $color-light;
+    main {
+      width: 66%;
     }
 
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      text-align: center;
+    aside {
+      width: 33%;
+      padding: $standard-padding 1.5rem;
+      border-left: 1px solid $color-main;
 
-      li {
-        display: inline-block;
-        position: relative;
-        width: 15rem;
-        height: 15rem;
-        margin: 0.4rem 0.3rem;
+      .social {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
 
-        .front {
-          position: absolute;
-          bottom: 0;
-          top: 0;
-          animation: flipVisible 250ms;
+        a {
+          padding: $standard-padding;
 
-          img {
-            max-width: 100%;
+          svg {
+            width: 1rem;
+            height: 1rem;
           }
-
-          .content {
-            color: $color-light;
-            text-shadow: 0 0 0.3rem $color-dark;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-
-            h4 {
-              margin: 0;
-            }
-
-            p {
-              margin: 0.3rem 0.7rem 0.7rem;
-            }
-          }
-        }
-
-        .back {
-          background-color: $color-light;
-          margin: 0;
-          position: absolute;
-          bottom: 0;
-          top: 0;
-          width: 100%;
-          padding: 1rem;
-          transform: rotateY(-90deg);
-          animation: flipAway 250ms;
-
-          h4,
-          p {
-            margin: 0.5rem;
-            line-height: 1;
-          }
-
-          p {
-            margin-bottom: 1.5rem;
-          }
-        }
-
-        &.hovered .front {
-          animation: flipAway 250ms forwards;
-        }
-
-        &.hovered .back {
-          animation: flipVisible 250ms forwards;
-        }
-      }
-
-      .has-story {
-        .story-container {
-          display: none;
-          background: rgba(0, 0, 0, 0.3);
-          backdrop-filter: blur(5px);
-          -webkit-backdrop-filter: blur(5px);
-          position: fixed;
-          top: 0;
-          left: 0;
-          bottom: 0;
-          right: 0;
-          z-index: 10;
-
-          .story {
-            background: white;
-            padding: 2rem;
-            max-width: calc(#{$wrapper-width} - #{$wrapper-margin});
-            max-height: 90%;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate3d(-50%, -50%, 0);
-            overflow: scroll;
-          }
-        }
-
-        .back::before {
-          display: block;
-          content: "";
-          position: absolute;
-          bottom: 5%;
-          right: 5%;
-          width: 5px;
-          height: 5px;
-          border-bottom: 2px solid black;
-          border-left: 2px solid black;
-        }
-
-        .back::after {
-          display: block;
-          content: "";
-          position: absolute;
-          bottom: 5%;
-          right: 5%;
-          width: 0;
-          height: 0;
-          border-left: 4px solid black;
-          border-top: 4px solid transparent;
-          border-bottom: 4px solid transparent;
-          transform: translate3d(2px, 3px, 0);
-        }
-
-        &:hover {
-          cursor: pointer;
-        }
-      }
-    }
-  }
-
-  aside {
-    grid-area: aside;
-    padding: $standard-padding 1.5rem;
-    border-left: 1px solid $color-main;
-
-    .social {
-      list-style: none;
-      display: flex;
-      margin: 0;
-      padding: 0;
-
-      a {
-        padding: $standard-padding;
-
-        svg {
-          width: 1rem;
-          height: 1rem;
         }
       }
     }
   }
 
   #all-posts {
-    grid-area: broad;
-
     h2 {
       text-align: center;
     }
@@ -318,8 +175,6 @@ main {
   }
 
   #post {
-    grid-area: broad;
-
     .authors,
     .date {
       display: inline-block;
@@ -357,6 +212,145 @@ main {
           border: 1px solid $color-main;
           background-color: $color-main;
         }
+      }
+    }
+  }
+}
+
+#team {
+  background-color: $color-main;
+  margin-top: $wrapper-margin;
+
+  h2 {
+    text-align: center;
+    color: $color-light;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      position: relative;
+      width: 15rem;
+      height: 15rem;
+      margin: 0.4rem 0.3rem;
+
+      .front {
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        animation: flipVisible 250ms;
+
+        img {
+          max-width: 100%;
+        }
+
+        .content {
+          color: $color-light;
+          text-shadow: 0 0 0.3rem $color-dark;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+
+          h4 {
+            margin: 0;
+          }
+
+          p {
+            margin: 0.3rem 0.7rem 0.7rem;
+          }
+        }
+      }
+
+      .back {
+        background-color: $color-light;
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        width: 100%;
+        padding: 1rem;
+        transform: rotateY(-90deg);
+        animation: flipAway 250ms;
+
+        h4,
+        p {
+          margin: 0.5rem;
+          line-height: 1;
+        }
+
+        p {
+          margin-bottom: 1.5rem;
+        }
+      }
+
+      &.hovered .front {
+        animation: flipAway 250ms forwards;
+      }
+
+      &.hovered .back {
+        animation: flipVisible 250ms forwards;
+      }
+    }
+
+    .has-story {
+      .story-container {
+        display: none;
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 10;
+
+        .story {
+          background: white;
+          padding: 2rem;
+          max-width: calc(#{$wrapper-width} - #{$wrapper-margin});
+          max-height: 90%;
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate3d(-50%, -50%, 0);
+          overflow: scroll;
+        }
+      }
+
+      .back::before {
+        display: block;
+        content: "";
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+        width: 5px;
+        height: 5px;
+        border-bottom: 2px solid black;
+        border-left: 2px solid black;
+      }
+
+      .back::after {
+        display: block;
+        content: "";
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+        width: 0;
+        height: 0;
+        border-left: 4px solid black;
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        transform: translate3d(2px, 3px, 0);
+      }
+
+      &:hover {
+        cursor: pointer;
       }
     }
   }

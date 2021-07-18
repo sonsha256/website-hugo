@@ -1,5 +1,5 @@
 ---
 title: "Team"
-position: "main"
-weight: 5
+position: "broad"
+weight: 1
 ---

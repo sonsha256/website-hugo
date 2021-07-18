@@ -1,28 +1,33 @@
 {{define "main"}}
-    <aside>
-        {{ range .Pages }}
-            {{ $Position := .Param "position" }}
-            {{ if eq $Position "aside" }}
-                {{ $Title := .Title }}
-                {{ $Id := lower $Title}}
-                {{ $PartialLoc := printf "%s.html" $Id }}
+    <section class="two-cols">
+        <main>
+            {{ range where .Pages "Params.position" "main" }}
+                <section id="{{ lower .File.BaseFileName }}">
+                    <h2>{{ .Title }}</h2>
+                    <p> {{ .Content }}</p>
+                </section>
+            {{ end }}
+        </main>
+        <aside>
+            {{ range where .Pages "Params.position" "aside" }}
+                {{ $PartialLoc := printf "%s.html" (lower .Title) }}
                 {{ partial $PartialLoc . }}
             {{ end }}
+        </aside>
+    </section>
+    <section class="broad">
+        {{ range where .Pages "Params.position" "broad" }}
+            <section id="{{lower .File.BaseFileName}}">
+                <h2>{{ .Title }}</h2>
+                <p> {{ .Content }}</p>
+                {{ if eq .Title "Team" }}
+                    <ul id="teamMemberList">
+                        {{ range sort $.Site.Data.team "name" }}
+                            {{ partial "team.html" . }}
+                        {{ end }}
+                    </ul>
+                {{ end }}
+            </section>
         {{ end }}
-    </aside>
-    {{ range where .Pages "Params.position" "main" }}
-        {{ $Title := .Title }}
-        {{ $Content := .Content }}
-        <section id="{{lower .File.BaseFileName}}">
-            <h2>{{ $Title }}</h2>
-            <p> {{ $Content }}</p>
-            {{ if eq $Title "Team" }}
-                <ul id="teamMemberList">
-                    {{ range sort $.Site.Data.team "name" }}
-                        {{ partial "team.html" . }}
-                    {{ end }}
-                </ul>
-            {{ end }}
-        </section>
-    {{ end }}
+    </section>
 {{ end }}

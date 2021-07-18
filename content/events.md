@@ -1,7 +1,7 @@
 ---
 title: "Veranstaltungen"
 position: "main"
-weight: 4
+weight: 2
 ---
 
 **29. Juli 2021** | Am 29. Juli findet unser nächster Online-Workshop statt. Genaueres geben wir rechtzeitig bekannt.
