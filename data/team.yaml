@@ -82,13 +82,6 @@
   background: Medieninformatik (Bachelor), Kenntnisse in JS, Java
   story:
 
-- name: Philipp
-  imagePath: philipp.jpg
-  tasks: Website und YouTube
-  interests: Data Science, Programmieren, Musik
-  background: Qualitätsmanager, studiert Angewandte Informatik im Bachelor
-  story: "Code is like humor. When you have to explain it, it's bad."
-
 - name: Sabina
   imagePath: sabina.jpg
   tasks:
