@@ -39,3 +39,7 @@ authors: [Fenja]
 | | |
 |-----------|---|
 |Gute Laune ist der wichtigste Grundpfeiler zum Erfolg! Und was kann die Laune besser retten als ausreichend Wasser und Gummibärchen? Uns ist wichtig, dass der Spaß an der Sache im Vordergrund steht.|{{< figure width="40%" src="images/snacks.jpg">}}| 
+
+| |
+|---|
+|Wie sah denn das nun in der Praxis aus? Unser erstes Präsenz-Dojo war ein voller Erfolg. Einen ausführlichen Erlebnisbericht findet ihr [hier](https://github.com/Coderdojo-Schoeneweide/website-hugo/content/blog/2021-07-29-juli-workshop).|
