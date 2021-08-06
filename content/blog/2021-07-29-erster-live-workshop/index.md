@@ -20,7 +20,7 @@ authors: [Fenja]
 |----|
 |Kinder- und Jugendschutz ist ein wichtiger Aspekt bei der Arbeit mit Schüler:innen. Der CoderDojo Deutschland e.V., in dem wir als CoderDojo Schöneweide Mitglied sind, arbeitet kontinuierlich an wichtigen Aspekten des Kinder- und Jugendschutzes der deutschen CoderDojos. Auch auf weltweiter Ebene gibt es entsprechende Leitfäden, nach denen wir uns richten.|
 
-3. [*Hygienekonzept*](https://github.com/Coderdojo-Schoeneweide/website-hugo/tree/master/static/docs/hygienekonzept)  
+3. [*Hygienekonzept*](https://github.com/Coderdojo-Schoeneweide/website-hugo//static/docs/hygienekonzept_roh.pdf)  
 | |
 |---| 
 |Abgesehen davon, dass sich die Hygienevorschriften mit den wechselnden Covid-19 Infektionszahlen ständig ändern, hatten wir bisher noch nicht einmal ein Muster, an dem wir uns orientieren konnten. Das ist jetzt anders! Mit Unterstützung unseres Versicherungsberaters und den Internetseiten des Landesjugendrings Berlins ist ein ausführliches Hygienekonzept entstanden, das regelmäßig an die aktuell gültigen Maßnahmen angepasst werden kann.|
