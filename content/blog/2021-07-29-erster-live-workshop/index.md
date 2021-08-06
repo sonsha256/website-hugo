@@ -2,7 +2,7 @@
 title:  "Unser erstes Präsenz-Dojo während der Corona-Pandemie - Ein How-To"
 date:   2021-08-05T13:00:00+0100
 categories: [berichte]
-tags: [workshop, spiel, grundschule, programmieren, scratch, outdoor, ferien, freizeit, bildung]
+tags: [workshop, corona, outdoor, ferien, freizeit, bildung]
 authors: [Fenja]
 ---
 
