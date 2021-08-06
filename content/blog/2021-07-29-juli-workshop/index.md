@@ -1,6 +1,6 @@
 ---
 title:  "Sommer, Sonne, Spiele! Ein Erlebnisbericht"
-date:   2021-08-06T13:00:00+0100
+date:   2021-08-05T13:00:00+0100
 categories: [berichte]
 tags: [workshop, spiel, grundschule, programmieren, scratch, outdoor, ferien, freizeit, bildung]
 authors: [Fenja]
