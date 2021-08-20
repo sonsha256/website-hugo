@@ -9,7 +9,7 @@ image = "filter.png"
 Im Online-Workshop "Foto-Filter-App" erhalten die Teilnehmenden einen Einblick darin, 
 wie man intelligente Foto-Filter, so genannte "Lenses", wie es sie zum Beispiel bei Instagram oder SnapChat gibt, programmiert. 
 Dafür wird PocketCode verwendet, eine App für mobile Geräte, mit der man Apps programmieren kann. 
-Nach einer kurzen Entdeckungstour durch PocketCode anhand des bereits in der App vorhandenen Beispielprojektes 
+Nach einer kurzen, kreativen Aufwärmübung bei der die Teilnehmenden in kurzer Zeit vier Filter zu verschiedenen Themen entwerfen,
 verwenden die Teilnehmenden zusammen mit ihren Mentor:innen, Eltern, oder alleine die von uns zusammengestellte
 Anleitung, um einen eigenen Foto-Filter zu entwickeln.
 
@@ -24,8 +24,11 @@ Teilnehmende benötigen:
 * Zum Teilnehmen: Computer oder Tablet
 * Zum Programmieren: Smartphone oder Tablet mit Kamera
 * Installierte App "Pocket Code" (verfügbar in GooglePlay oder im AppStore)
+* Installierte Mal-App, z.B. "Pocket Paint"
 * Mikrofon und Lautsprecher
 * Papier und Stifte
-* [Anleitung des CoderDojo Schöneweide](https://coderdojo-schoeneweide.github.io/docs/anleitung-pocketcode-ar.pdf)
+* [Anleitung des CoderDojo Schöneweide für Android](https://coderdojo-schoeneweide.github.io/docs/anleitung-pocketcode-ar-android.pdf)
+* [Anleitung des CoderDojo Schöneweide für iOS](https://coderdojo-schoeneweide.github.io/docs/anleitung-pocketcode-ar-ios.pdf)
+
 
 Bildquelle: [PocketCode](https://wiki.catrobat.org/bin/view/Education/Tinkering%20With%20Your%20Phone/Face%20Recognition/)
