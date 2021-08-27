@@ -1,10 +1,3 @@
-- name: Alex
-  imagePath: alex.jpg
-  tasks: Mentoring lernen, Web Development & Design
-  interests: Fotografie, Radfahren und Programmierprojekte
-  background: Informatiker Ausbildung, Medieninformatik Schwerpunkt Web
-  story: CoderDojo ist für Kinder eine super Möglichkeit in die Programmierwelt einzusteigen. Ich bin froh, wenn ich Projekte wie dieses unterstützen kann.
-
 - name: Bruno
   imagePath: bruno.jpg
   tasks: Mentoring, Programming, Didaktik
@@ -53,13 +46,6 @@
   interests: Webentwicklung, Data Science, Scratch
   background: Studiert Medieninformatik im Master und leitet Informatik-Übungen an der HTW
   story: 2014 habe ich von CoderDojo erfahren. Glücklicherweise gab es ein CoderDojo in Karlsruhe, dem ich mich anschließen konnte. Später ergab sich durch einen Kurs an der HTW Berlin die Chance, ein eigenes Dojo zu gründen!
-
-- name: Lotte
-  imagePath: lotte.jpg
-  tasks: Gründungsmitglied, Mentoring, Organisation
-  interests: Webentwicklung, Organisieren, Menschen
-  background: Studiert Medieninformatik im Master
-  story:
 
 - name: Luis
   imagePath: luis.jpg
