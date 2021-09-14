@@ -92,7 +92,7 @@ nav {
     padding: 0;
     list-style: none;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto; //Add more columns if needed
+    grid-template-columns: auto auto auto auto auto auto auto; //Add more columns if needed
 
     li {
       margin: 0.1rem;
@@ -356,7 +356,7 @@ main {
   }
 }
 
-.workshop-properties {
+.card-properties {
   .icon {
     width: 1rem;
     height: 1rem;

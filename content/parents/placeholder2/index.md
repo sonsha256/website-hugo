@@ -1,9 +1,6 @@
 +++
-title = "Hallo Bot, wie gehts?"
-image = "chatbot.png"
-duration = "1,5 Stunden"
-age = "10 - 17 Jahre"
-tags = ["scratch", "python", "ki"]
+title = "Test 1"
+image = "sail.jpg"
 +++
 
 Im Online-Workshop "Hallo Bot, wie gehts?" erhalten die Teilnehmenden einen Einblick darin,

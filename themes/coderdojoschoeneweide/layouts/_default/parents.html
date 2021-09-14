@@ -3,13 +3,15 @@
     <h2>Für Eltern</h2>
     {{ range .Pages }}
     {{ end }}
-    <p> {{ .Content }}</p>
+    <p>Einleitungstext</p>
     <ul id="results">
         {{ range .Pages }}
         <li>
             <a href="{{ .RelPermalink }}">
                 <img src="{{ if .Params.image }}{{ (.Page.Resources.GetMatch .Params.image).RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/placeholder.svg{{ end }}" alt="parents thumbnail">
-                hello
+                <div class="card-properties">
+                    <h3>{{ .Title }}</h3>
+                </div>
             </a>
         </li>
         {{ end }}
