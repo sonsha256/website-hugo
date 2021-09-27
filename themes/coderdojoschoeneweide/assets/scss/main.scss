@@ -15,6 +15,8 @@ $themes: (
     "svg-fill-color": $color-dark,
     "visited-link-color": -webkit-link,
     "not-visited-link-color": -webkit-link,
+    "display-property-light-title": block,
+    "display-property-dark-title": none,
   ),
   "dark": (
     "text-color": $color-light,
@@ -24,6 +26,8 @@ $themes: (
     "svg-fill-color": $color-light,
     "visited-link-color": #8e24aa,
     "not-visited-link-color": #1976d2,
+    "display-property-light-title": none,
+    "display-property-dark-title": block,
   ),
 );
 
@@ -685,7 +689,7 @@ svg {
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   padding-top: 0.5rem;
 }
@@ -713,6 +717,7 @@ svg {
   right: 0;
   bottom: 0;
   background-color: #ccc;
+  //background-color: $color-dark-theme-bg;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -737,6 +742,7 @@ svg {
 
 input:checked + .slider {
   background-color: $color-dark-theme-bg;
+  //background-color: #ccc;
 }
 
 input:focus + .slider {
@@ -759,4 +765,15 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.dark-site-title {
+  @include theme() {
+    display: theme-get("display-property-dark-title");
+  }
+}
+.site-title {
+  @include theme() {
+    display: theme-get("display-property-light-title");
+  }
 }
