@@ -2,14 +2,14 @@
 <html lang="{{.Site.LanguageCode}}">
   {{ block "head.html" . }}
   <head>
-    <title>{{ block "title" .}}{{ .Site.Title }}{{ end }}</title>
+    <title> {{ block "title" .}}{{ .Site.Title }}{{ end }} </title>
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    {{ $scss := resources.Get "/scss/main.scss" }} {{ $style := $scss |
-    resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    {{ $scss := resources.Get "/scss/main.scss" }}
+    {{ $style := $scss | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" type="text/css" href="{{$style.RelPermalink}}" />
 
     <script src="{{ .Site.BaseURL }}/js/obfuscate.js"></script>
@@ -51,26 +51,12 @@
           <label for="nav-trigger">Menü</label>
           <ul class="trigger">
             {{ block "navlinks" . }}
-            <li>
-              <a class="button" href="{{ .Site.BaseURL }}#about">Über uns</a>
-            </li>
-            <li>
-              <a class="button" href="{{ .Site.BaseURL }}#events"
-                >Veranstaltungen</a
-              >
-            </li>
+            <li><a class="button" href="{{ .Site.BaseURL }}#about">Über uns</a></li>
+            <li><a class="button" href="{{ .Site.BaseURL }}#events">Veranstaltungen</a></li>
             <li><a class="button" href="{{ .Site.BaseURL }}#team">Team</a></li>
-            <li>
-              <a class="button" href="{{ .Site.BaseURL }}/workshops"
-                >Workshops</a
-              >
-            </li>
+            <li><a class="button" href="{{ .Site.BaseURL }}/workshops">Workshops</a></li>
             <li><a class="button" href="{{ .Site.BaseURL }}/blog">Blog</a></li>
-            <li>
-              <a class="button" href="{{ .Site.BaseURL }}/impressum"
-                >Impressum</a
-              >
-            </li>
+            <li><a class="button" href="{{ .Site.BaseURL }}/impressum">Impressum</a></li>
             {{ end }}
           </ul>
         </nav>
