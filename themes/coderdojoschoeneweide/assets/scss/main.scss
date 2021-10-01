@@ -2,49 +2,9 @@
 $color-dark: #111111 !default;
 $color-light: #ffffff !default;
 $color-main: #f2a23a !default;
-$color-dark-theme-bg: #262626;
 $wrapper-width: 900px !default;
 $wrapper-margin: 2rem;
 $standard-padding: 0.5rem;
-
-$themes: (
-  "light": (
-    "text-color": $color-dark,
-    "bg-color": $color-light,
-    "icon-filter-color": none,
-    "svg-fill-color": $color-dark,
-    "visited-link-color": -webkit-link,
-    "not-visited-link-color": -webkit-link,
-    "display-property-light-title": block,
-    "display-property-dark-title": none,
-  ),
-  "dark": (
-    "text-color": $color-light,
-    "bg-color": $color-dark-theme-bg,
-    "icon-filter-color": invert(100%) sepia(0%) saturate(2%) hue-rotate(311deg)
-      brightness(103%) contrast(101%),
-    "svg-fill-color": $color-light,
-    "visited-link-color": #8e24aa,
-    "not-visited-link-color": #1976d2,
-    "display-property-light-title": none,
-    "display-property-dark-title": block,
-  ),
-);
-
-@mixin theme() {
-  @each $theme, $map in $themes {
-    $theme-map: $map !global;
-    .#{$theme} & {
-      @content;
-    }
-  }
-  $theme-map: null !global;
-}
-
-@function theme-get($key) {
-  @return map-get($theme-map, $key);
-}
-
 /* General */
 * {
   box-sizing: border-box;
@@ -54,10 +14,7 @@ body {
   font: 100% "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  @include theme() {
-    background-color: theme-get("bg-color");
-    color: theme-get("text-color");
-  }
+  background-color: $color-light;
 }
 
 p {
@@ -77,6 +34,7 @@ header {
   a {
     display: block;
     text-decoration: none;
+    color: $color-dark;
 
     .hidden-title {
       display: none;
@@ -92,9 +50,6 @@ header {
     .site-subtitle {
       text-align: center;
       font-size: 4rem;
-      @include theme() {
-        color: theme-get("text-color");
-      }
     }
   }
 }
@@ -150,8 +105,7 @@ main {
     padding: $standard-padding 1.5rem;
   }
 
-  .two-cols,
-  .broad {
+  .two-cols, .broad {
     padding: 0;
   }
 
@@ -186,22 +140,6 @@ main {
     }
   }
 
-  #events,
-  #impressum,
-  #post,
-  .single-workshop {
-    a:visited {
-      @include theme() {
-        color: theme-get("visited-link-color");
-      }
-    }
-    a:link {
-      @include theme() {
-        color: theme-get("not-visited-link-color");
-      }
-    }
-  }
-
   #all-posts {
     h2 {
       text-align: center;
@@ -218,16 +156,11 @@ main {
       padding: 0;
 
       &:not(:first-child) {
-        border-top: 1px solid;
-        @include theme() {
-          border-color: theme-get("text-color");
-        }
+        border-top: 1px solid $color-dark;
       }
 
       a {
-        @include theme() {
-          color: theme-get("text-color");
-        }
+        color: $color-dark;
         text-decoration: none;
 
         &:hover {
@@ -260,8 +193,7 @@ main {
       }
     }
 
-    figure,
-    img {
+    figure, img {
       display: block;
       margin: 0 auto;
       text-align: center;
@@ -273,10 +205,7 @@ main {
       li {
         border-radius: 0.5rem;
         padding: 0.1rem 0.4rem;
-        border: 1px dotted;
-        @include theme() {
-          border-color: theme-get("text-color");
-        }
+        border: 1px dotted $color-dark;
 
         &:hover {
           cursor: pointer;
@@ -352,7 +281,6 @@ main {
         p {
           margin: 0.5rem;
           line-height: 1;
-          color: $color-dark;
         }
 
         p {
@@ -392,7 +320,6 @@ main {
           left: 50%;
           transform: translate3d(-50%, -50%, 0);
           overflow: scroll;
-          color: $color-dark;
         }
       }
 
@@ -434,9 +361,6 @@ main {
     width: 1rem;
     height: 1rem;
     margin-right: 0.3rem;
-    @include theme() {
-      filter: theme-get("icon-filter-color");
-    }
   }
 
   .tag {
@@ -470,9 +394,6 @@ main {
 
   #filter {
     border: 1px solid $color-dark;
-    @include theme() {
-      border-color: theme-get("text-color");
-    }
     height: auto;
     max-height: 0;
     overflow: hidden;
@@ -499,12 +420,11 @@ main {
       }
 
       span {
-        width: 1/8 * 100%;
+        width: 1/8*100%;
       }
 
-      select,
-      div {
-        width: 7/8 * 100%;
+      select, div {
+        width: 7/8*100%;
         padding: 0;
       }
     }
@@ -634,6 +554,7 @@ footer {
 
   .all-workshops {
     #filter {
+
       &.show {
         max-height: 21rem;
       }
@@ -674,106 +595,5 @@ footer {
 
   100% {
     transform: rotateY(0deg);
-  }
-}
-
-svg {
-  @include theme() {
-    fill: theme-get("svg-fill-color");
-  }
-}
-
-/* Theme-Switcher */
-
-.switcher-container {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: flex-end;
-  align-items: center;
-  padding-top: 0.5rem;
-}
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-/* Hide default HTML checkbox */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-/* The slider */
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  //background-color: $color-dark-theme-bg;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 40px;
-  width: 40px;
-  left: 0px;
-  bottom: 4px;
-  top: 0;
-  bottom: 0;
-  margin: auto 0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  box-shadow: 0 0px 15px rgba(204, 204, 204, 0.876);
-  background: white url("https://i.ibb.co/FxzBYR9/night.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-input:checked + .slider {
-  background-color: $color-dark-theme-bg;
-  //background-color: #ccc;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px $color-dark;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(24px);
-  -ms-transform: translateX(24px);
-  transform: translateX(24px);
-  background: white url("https://i.ibb.co/7JfqXxB/sunny.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-.dark-site-title {
-  @include theme() {
-    display: theme-get("display-property-dark-title");
-  }
-}
-.site-title {
-  @include theme() {
-    display: theme-get("display-property-light-title");
   }
 }
