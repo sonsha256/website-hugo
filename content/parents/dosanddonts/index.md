@@ -3,6 +3,8 @@ title = "How to: Kind betreuen beim Workshop"
 image = "dosanddonts.png"
 +++
 
+{{< figure width="50%" src="dosanddonts.png" >}}
+
 Manchmal versuchst du deinem Kind etwas zu erklären, aber es läuft einfach nicht? Bei uns soll es um den Spaß an der Sache gehen. Deswegen ist auch wichtig, dass du als Elternteil dein Kind optimal unterstützt. 
 
 Berücksichtige dafür:
