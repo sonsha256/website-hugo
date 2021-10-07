@@ -19,13 +19,6 @@
   background: Optical Sciences (Master) an der HU, Lehrerfahrung, Python und MatLab
   story:
 
-- name: Jakob
-  imagePath: jakob.jpg
-  tasks: Webentwicklung, YT Kanal, PR
-  interests: Laufen, Fußball, Wassersport und Schlagzeug spielen
-  background: Medieninformatik (Master), Kenntnisse im Full-Stack Development und Webdesign
-  story:
-
 - name: Janine
   imagePath: jane.png
   tasks: Webentwicklung, Mentoring, PR
@@ -67,13 +60,6 @@
   interests: Lesen, Filme gucken und Kurzgeschichten schreiben
   background: Informatik und Wirtschaft
   story:
-
-- name: Sebastian
-  imagePath: sebastian.jpg
-  tasks: Mädchen für Alles
-  interests: Von allem ein bisschen, ein bisschen mehr Autos und Technik, und Spaß am Umgang damit.
-  background: NFZ Mechatroniker (die ganz schweren Autos), studiert Fahrzeugtechnik im Bachelor
-  story: Ich war einfach zur richtigen Zeit am richtigen Ort. Bei einer Veranstaltung habe ich mit entwickelt und bin über das Programm HTW Hilft auf CoderDojo aufmerksam geworden.
 
 - name: Sonja
   imagePath: sonja.jpg
