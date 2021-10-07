@@ -54,7 +54,7 @@
         <li data-age="{{ .Params.age }}" data-duration="{{ .Params.duration }}" data-tags="{{ .Params.tags }}">
             <a href="{{ .RelPermalink }}">
                 <img src="{{ if .Params.image }}{{ (.Page.Resources.GetMatch .Params.image).RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/placeholder.svg{{ end }}" alt="workshop thumbnail">
-                <div class="workshop-properties">
+                <div class="card-properties">
                     <h3>{{ .Title }}</h3>
                     {{ partial "workshop-properties.html" . }}
                 </div>
