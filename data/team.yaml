@@ -54,13 +54,6 @@
   background: Studiert Medieninformatik im Master
   story: Es macht mir Spaß, mein theoretische Wissen an der Webseite von CoderDojo ins Praktische umzusetzen. Ich hatte auf Facebook einen CoderDojo Post gesehen. Nach der Kontaktaufnahme dauerte es nicht lange, bis zu einem ersten Treffen mit dem Team.
 
-- name: Matthias
-  imagePath:
-  tasks: Programming, Mentoring, Code-Kata
-  interests:
-  background: Wirtschaftsinformatik (Bachelor), Kenntnisse in der Java-Welt
-  story:
-
 - name: Nadya
   imagePath: nadya.jpg
   tasks: Programmieren
