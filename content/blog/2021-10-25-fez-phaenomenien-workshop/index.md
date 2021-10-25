@@ -3,7 +3,7 @@ title: "FEZ Phänomenien Workshop"
 date: 2021-10-25T22:24:46+02:00
 categories: [berichte]
 tags: [workshop, einstieg, spiel, fez, programmieren, herbstferien, dash, roboter, bots]
-authors: [Dominik]
+authors: [Dominic]
 ---
 
 Es sind Herbstferien in Berlin und das FEZ Berlin lud Kinder und deren Familien ein um zu Staunen, zu Forschen und zu 
