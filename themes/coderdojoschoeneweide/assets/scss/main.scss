@@ -741,7 +741,7 @@ svg {
 }
 
 input:checked + .slider {
-  background-color: $color-dark-theme-bg;
+  background-color: darken($color-dark-theme-bg, 10%);
   //background-color: #ccc;
 }
 
