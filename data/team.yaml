@@ -81,11 +81,17 @@
   interests: Klavier, Backen, Kochen und Videospiele
   background:  Medieninformatik (Bachelor)
   story: In some ways, programming is like painting. You start with a blank canvas and certain basic raw materials. You use a combination of science, art, and craft to determine what to do with them.
-  
-  name: Marvin
+
+- name: Dominic
+  imagePath: dominic.jpg
+  tasks: Mentoring, Didaktik, Programmieren
+  interests: Programmieren, Sport, E-Gitarre, meine Katzen
+  background:  IMI Master 3. Semester; C++, Java, HTML, CSS/SCSS, JavaScript, Unity3D + C#, Unreal Engine 4
+  story: Have the courage to follow your heart and intuition. They somehow know what you truly want to become
+
+- name: Marvin
   imagePath: marv.jpg
   tasks: Corporate-Design
   interests: Gaming, Digital Art
   background: Medieninformatik (Master), UI/UX-Designer (Werkstudentenjob), Unity Game Engine (Developer)
   story: A user interface is like a joke. If you have to explain it, it's not that good.
-
