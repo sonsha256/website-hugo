@@ -83,6 +83,6 @@ Die Teilnehmenden müssen keine Materialien vorbereiten.
 
 
 ## Lernziele
-* Die Teilnehmenden können bei einen DashBot steuern (Position, Blickrichtung, Sprachaufnahmen, Farben, Katapult)
-* Die Teilnehmenden können bei einen DashBot programmieren
+* Die Teilnehmenden können einen DashBot steuern (Position, Blickrichtung, Sprachaufnahmen, Farben, Katapult)
+* Die Teilnehmenden können einen DashBot programmieren
 
