@@ -9,11 +9,14 @@ tags = ["dashbot"]
 Beim Challenges-Workshop mit den Dash Robotern durchspielen die Teilnehmenden unterschiedliche Aufgabestellungen und lernen
 so spielerisch das manuelle Steuern sowie das Programmieren eines kleinen Roboters.
 
+Da die Aufgaben sehr frei sind, können die Teilnehmenden dabei ganz eigene Lösungsideen entwickeln und ausprobieren.
+
 
 ## Die DashBots
 
 Ein DashBot lässt sich über ein verbundenes iPad mit der "Wonder" App steuern.
-In der Wonder App kann der DashBot manuell gesteuert werden (Steuerung), kleine Programmieraufgaben durchgespielt (Roboter-Saga) und frei programmiert werden (Entwickler-Modus).
+In der Wonder App kann der DashBot manuell gesteuert werden (Steuerung), kleine Programmieraufgaben durchgespielt (Roboter-Saga) und
+frei programmiert werden (Entwickler-Modus).
 Ein DashBot kann mit einem kleinen Katapult ausgerüstet werden.
 
 {{< figure width="50%" src="images/dashbot_close.png" title="Zwei Dashbots beim Fußball spielen" >}}
@@ -21,8 +24,8 @@ Ein DashBot kann mit einem kleinen Katapult ausgerüstet werden.
 
 ## Die Challenges
 
-Bei der ersten Durchführung wurden fünf Challenges aufgebaut. Bei erfolgreicher Bewältigung der Challenge erhält der Teilnehmende einen Sticker für diese Aufgabe.
-Jede Challenge hat einen "manuellen" und einen "programmier" Teil für die es separat Sticker gibt.
+In der Standartausführung gibt es fünf Challenges. Bei erfolgreicher Bewältigung der Challenge erhält der Teilnehmende einen Sticker für diese Aufgabe.
+Jede Challenge hat einen "manuellen" und einen "programmier" Teil, die separat bearbeitet werden können.
 
 {{< figure width="100%" src="images/challengezettel.png" title="Links: Ein ausgefüllter Challenge-Zettel   Rechts: Die Vorlage" >}}
 
@@ -39,26 +42,27 @@ ein Programm zu entwickeln.
 
 {{< figure width="50%" src="images/labyrinth.png" title="Challenge 2: Das Labyrinth" >}}
 
-Weiterhin ist ein Fußballfeld aufgebaut in dem die Teilnehmenden einen Ball ins Tor befördern können. Diese Challenge ist mit die schwerste vor allem, weil die Bälle häufig
-an den Wänden liegen bleiben (eventuell verbesserungswürdig).
+Weiterhin ist ein Fußballfeld aufgebaut in dem die Teilnehmenden einen Ball ins Tor befördern können. Diese Challenge ist mit die schwerste vor allem. Die Roboter
+selbst zu steuern ist schon eine Herausforderung. Mit diesen Robotern dann noch einen Ball zu kontrollieren, muss geübt werden.
+
+Optional können die Teilnehmenden an dieser Stelle auch gegeneinander spielen.
 
 {{< figure width="50%" src="images/soccer.png" title="Challenge 3: Das Fußballfeld" >}}
 
-Bei der vierten Challenge gibt es unterschiedliche Verkleidungen für die DashBots, die anprobiert werden können. Dazu passend soll ein kleines Theaterstück aufgeführt werden.
-Besonders cool ist es, wenn zwei Teilnehmende gleichzeitig an einem Theaterstück arbeiten.
+Bei der vierten Challenge gibt es unterschiedliche Verkleidungen für die DashBots, die anprobiert werden können.
+Dazu passend soll ein kleines Theaterstück aufgeführt werden. Besonders cool ist es, wenn zwei Teilnehmende gleichzeitig an einem Theaterstück arbeiten.
 
 {{< figure width="50%" src="images/theater.png" title="Challenge 4: Das Theater" >}}
 
 Für die letzte Challenge muss der DashBot mit einem Katapult ausgerüstet werden.
-Neben ein paar Bällen gibt es drei Körber unterschiedlicher Größe, in die getroffen werden kann.
+Neben ein paar Bällen gibt es drei Körber unterschiedlicher Größe, in die getroffen werden muss.
 
 {{< figure width="50%" src="images/katapult.png" title="Challenge 5: Das Katapult" >}}
 
 Für manche Challenges ist nicht fest definiert, wann diese als geschafft gelten.
 Hier entscheiden meist die Teilnehmenden selbst, beziehungsweise die Mentor:innen, falls sie gefragt werden.
 
-
-## Materialien
+<!-- ## Materialien
 
 * 6 Dash Roboter
 * Banden für die Sandbox und Fußball
@@ -80,6 +84,7 @@ Hier entscheiden meist die Teilnehmenden selbst, beziehungsweise die Mentor:inne
 * Lautsprecher für Hintergrundmusik (optional)
 
 Die Teilnehmenden müssen keine Materialien vorbereiten.
+-->
 
 
 ## Lernziele
