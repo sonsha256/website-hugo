@@ -42,7 +42,7 @@ ein Programm zu entwickeln.
 
 {{< figure width="50%" src="images/labyrinth.png" title="Challenge 2: Das Labyrinth" >}}
 
-Weiterhin ist ein Fußballfeld aufgebaut in dem die Teilnehmenden einen Ball ins Tor befördern können. Diese Challenge ist mit die schwerste vor allem. Die Roboter
+Weiterhin ist ein Fußballfeld aufgebaut in dem die Teilnehmenden einen Ball ins Tor befördern können. Die Roboter
 selbst zu steuern ist schon eine Herausforderung. Mit diesen Robotern dann noch einen Ball zu kontrollieren, muss geübt werden.
 
 Optional können die Teilnehmenden an dieser Stelle auch gegeneinander spielen.
