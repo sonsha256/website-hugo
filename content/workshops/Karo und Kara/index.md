@@ -7,7 +7,7 @@ image = "kara.png"
 prevKnowledge = "Keine Vorkenntnisse notwendig"
 +++
 
-Im Workshop „Zwischen Käfern und Bauklötzen” erhalten die Teilnehmenden, mit Hilfe unseres Marienkäfer Kara und unserer Klemmbausteinfigur Robot Karol, einen ersten Einblick in die Welt der Programmierung und der Algorithmen. Kara und Robot Karol sind Programmierumgebungen, designt für Kinder und Jugendliche. Zuerst machen sich alle Teilnehmenden mit Kara und Karol vertraut und können Funktionen und Möglichkeiten selbst entdecken. Anschließend können Aufgaben mit verschiedenen Schwierigkeitsstufen gelöst oder eigene Ideen umsetzen, wie zum Beispiel Karol durch ein selbstgebautes Labyrinth zu führen.
+Im Workshop "Zwischen Käfern und Bauklötzen" erhalten die Teilnehmenden, mit Hilfe unseres Marienkäfer Kara und unserer Klemmbausteinfigur Robot Karol, einen ersten Einblick in die Welt der Programmierung und der Algorithmen. Kara und Robot Karol sind Programmierumgebungen, designt für Kinder und Jugendliche. Zuerst machen sich alle Teilnehmenden mit Kara und Karol vertraut und können Funktionen und Möglichkeiten selbst entdecken. Anschließend können Aufgaben mit verschiedenen Schwierigkeitsstufen gelöst oder eigene Ideen umsetzen, wie zum Beispiel Karol durch ein selbstgebautes Labyrinth zu führen.
 
 Lernziele:
 * Teilnehmende wissen, was ein Algorithmus ist und können kleine Algorithmen selber schreiben.
