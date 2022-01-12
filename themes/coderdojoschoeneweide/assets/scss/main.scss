@@ -599,7 +599,7 @@ footer {
 
       input:checked {
         ~ ul {
-          max-height: 20rem;
+          max-height: 30rem;
         }
 
         ~ label::after {
@@ -610,13 +610,17 @@ footer {
   }
 
   main {
-    &.columns {
-      grid-template-areas: "about" "events" "aside" "broad";
-      grid-template-columns: initial;
-    }
+    .two-cols {
+      flex-direction: column;
 
-    aside {
-      border-left: none;
+      main {
+        width: 100%;
+      }
+
+      aside {
+        border-left: none;
+        width: 100%;
+      }
     }
 
     aside::before {
