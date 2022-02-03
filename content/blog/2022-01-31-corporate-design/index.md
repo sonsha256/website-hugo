@@ -1,16 +1,21 @@
 ---
-title: "Überarbeitung des Corporate Designs"
+title: "CoderDojo Schöneweide - Corporate Design"
 date: 2022-01-31T21:00:00+0100
 categories: [berichte]
 tags: [htw, design, corporateDesign]
 authors: [Marvin]
 ---
 
-In diesem Blog geht es um das Corporate Design des CoderDojo Schöneweide, welches im Verlauf des Wintersemesters 2021/22 überarbeitet wurde. Kurz gesagt handelt es sich dabei um das einheitliche Erscheinungsbild einer Organisation. Das ist wichtig, da so gewährleistet wird, dass das CoderDojo überall wiedererkannt wird.
-Um diesen Wiedererkennungswert zu gewährleisten haben sich die Mitglieder des CoderDojos zusammengesetzt und neue Ideen ausgearbeitet.
-
 {{< figure width="10%" src="images/ninjaIcon.svg" >}}
 
-Elemente wie Farben, das Logo, Schriften und Bildelemente wurden vereinheitlicht und in einem Corporate Design Manual festgehalten. Bei dem Manual handelt es sich um ein Dokument, das eine effiziente Implementierung des Corporate Designs ermöglicht und den Nutzern (CoderDojo-Mitgliedern) zur Verfügung gestellt wird.
+Im Rahmen der HTW bin auf das Projekt "CoderDojo Schöneweide" gestoßen und wollte mich an diesem Projekt beteiligen. Da meine Stärken eher im Bereich Design & Programmieren liegen habe ich mich innerhalb des Dojos nach einer Tätigkeit alternative zum Mentoring umgesehen. Glücklicherweise wurde ich mit offenen Armen empfangen und fand durch die anderen Mitglieder heraus, dass das Team noch jemanden sucht, der sich um das Corporate Design kümmert und dahingegend eine Überarbeitung des aktuellen Designs vornimmt.
 
-Neben der Vereinheitlichung und dem Wiedererkennungswert war es unter anderem das Ziel, das neue Corporate Design so zu kreieren, dass es sowohl für die jungen Teilnehmer, als auch für die Eltern ansprechend gestaltet ist. Dementsprechend haben wir uns Schriften ausgesucht, die sowohl gut zu lesen, als auch verspielt sein können. Des Weiteren haben wir uns eine Farbpalette mit verschiedenen Farbtönen ausgedacht, die sich wunderbar zum Gestalten von Flyern und der Webseite eignen.
+## Was ist ein Corporate Design?
+Unter einem Corporate Design versteht man im Allgemeinen das Erscheinungsbild eines Unternehmens oder Organisation. Die wichtigsten Merkmale dafür sind der Wiedererkennungswert und die Einheitlichkeit. Beides wird durch ein vereinheitlichtes Design im Bezug auf die verwendeten Farben, dem Logo, den Schriften, sowie Bild- und Textstilen gewährleistet. Zu diesem Zweck wird ein Corporate Design Manual angelegt. Dabei handelt es sich um ein Dokument, das alle genannten Elemente vereint und beschreibt wie diese anzuwenden sind. Das Manual steht dann für alle Mitglieder zur Verfügung und dient als Leitfaden bei der Gestaltung von digitalen und Printmedien.
+
+Zusammen und in ständiger Rücksprache haben wir eine neue Farbpalette erstellt, uns passende Schriftarten ausgesucht und gemeinsam an neuen Medien versucht. Das Ergebnis ist ein leserfreundliches und farbenfrohes Design, dass sowohl Kinder und Jugendliche, sowie Eltern ansprechen soll.
+
+## Neuer Look
+
+
+Innerhalb des Wintersemesters habe ich sehr positive Erfahrung mit dem CoderDojo gemacht und kann jedem das zugehörige AWE wärmstens empfehlen. Es kann sich jedoch auch ehrenamtlich dort engagiert werden, denn es wird für jeden der passende Platz gefunden.
