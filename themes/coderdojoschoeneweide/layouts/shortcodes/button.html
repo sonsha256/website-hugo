@@ -1,0 +1,3 @@
+<a href="{{ if .IsNamedParams }}{{ .Get "link" }}{{ else }}{{ .Get 0 }}{{ end }}" class="button shortcode">
+  {{ .Inner | markdownify }}
+</a>

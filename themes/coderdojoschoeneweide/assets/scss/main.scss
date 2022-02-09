@@ -116,6 +116,11 @@ header {
   }
 }
 
+.button.shortcode {
+  color: $color-light !important;
+  margin: $standard-padding 0;
+}
+
 nav {
   display: block;
 
