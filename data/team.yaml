@@ -67,7 +67,7 @@
   interests: Gesundheitsinformatik, Sprachen, Lernen
   background: Fremdsprachen-korrespondentin, studiert Angewandte Informatik im Bachelor
   story: Was bringt einem Wissen, wenn man es nicht anwenden oder mit anderen teilen kann?
-  
+
 
 - name: Uyen
   imagePath: uyen.jpg
@@ -167,12 +167,12 @@
   background: M.A. System Design (Partizipatives Design, UI & UX Design, HCI), Prototyping
   story:
 
-#- name: Sergen
-#  imagePath:
-#  tasks: Mentoring, Webdesign, Social Media
-#  interests: Design, Social Media, Mentoring und Programmieren
-#  background: Wirtschaftsinformatik (Bachelor)
-#  story:
+- name: Sergen
+  imagePath: sergen.jpg
+  tasks: Mentoring, Webdesign, Social Media
+  interests: Design, Social Media, Mentoring und Programmieren
+  background: Wirtschaftsinformatik (Bachelor)
+  story:
 
 #- name: Stefan
 #  imagePath:
