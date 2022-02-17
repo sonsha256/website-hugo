@@ -4,11 +4,7 @@ position: "main"
 weight: 2
 ---
 
-{{< button link="https://pretix.eu/dojosw/" >}}
-Jetzt Tickets buchen!
-{{</ button >}}
-
-**12. Febraur 2022 - 11.00 - 13.00: Coding im Dojo** 
+**12. März 2022 - 11.00 - 13.00: CoderDojo Hackt** | Save the date! Mehr Infos in Kürze.
 
 {{< button link="https://pretix.eu/dojosw/" >}}
 Zur Anmeldung
