@@ -1,6 +1,6 @@
 ---
 title: "Programmieren für den Weltraum - Astro Pi Workshop - die Zweite"
-date: 2022-01-29
+date: 2022-03-06
 categories: [berichte]
 tags: [workshop, htw, einstieg, weltraum, programmieren, esa, astropi, python, iss, missionzero]
 authors: [Fenja]
